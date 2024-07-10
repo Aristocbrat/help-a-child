@@ -18,7 +18,7 @@ const Footer2 = () => {
             <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
             <div className='flex flex-row'>
                 <img src={imgw} alt="" className='w-[40%] rounded-[20px]'/>
-                <span className='w-[550px] text-xl md:text-2xl lg:text-3xl xl:text-2xl ml-5'>Adoption is an act of love. It must come from a desire to love a child.
+                <span className='w-[550px] text-xl md:text-lg lg:text-lg xl:text-lg ml-5'>Adoption is an act of love. It must come from a desire to love a child.
                      It must be motivated by our love for God and humanity. 
                      It must be because we want to raise a child for God as a demonstration of our love.
                      Every child is a gift from God.</span>
