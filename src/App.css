@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footerheadline{
+    background: #0a3656;
+}
+.container{
+    box-sizing: 0 0 8px rgba(0,0,0,0.3);
+}
+.indicator .step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 7px;
+}
+.step .div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.step span{
+    font-weight: 700;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.step1 span{
+    color:white ;
+}
+.indicator .line{
+    width: 40px;
+    height: 30px;
+    border-top: 4px solid white;
+    transition: all 0.4s ease;
+}
+.form .form-group{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     width: 80%;
+     height: 50px;
+     margin: 15px 0;
+    }
+    .form-group input{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        border-radius: 5px;
+        padding: 0 20px;
+        font-size: 17px;
+        font-weight: 500;
+        outline: none;
+        border: 1px solid black;
+    }
+    .form-group label{
+        position: absolute;
+        pointer-events: none;/*what is pointer event*/
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        background: #fff;
+        transition: all 0.3s ease;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 3px;
+        color: #999;
+    }
+    .form-group input:focus ~ label,
+    .form-group input:valid ~ label{
+        color: black;
+        top: 0%;
+        transform: translateY(-50%) scale(0.85);
+    }
+    .buttons .btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: black;
+        color: white;
+        text-transform: capitalize;
+        text-align: center;
+        width: 98%;
+        height: 100%;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+        border: none;
+        border-radius: 6px; 
+        outline: none;/*what is the use of outline*/
+        box-shadow:0 0 8px rgba(0,0,0,0.3);
+        cursor: pointer;
+    }
+    .buttons .btn i{
+        color: white;
+        font-size: 15px;
+    }
+    .buttons .btnfirst{
+        width: 100%;
+    }
+    .buttons .btn:active{
+        transform: scale(0.95);
+    }
+    .buttons .btn:hover{
+        opacity: 0.8;
+        background: black;
+    }
+
+    #one:checked ~ .container .panel{
+        left: -710px;
+    }
+    #two:checked ~ .container .panel{
+        left: -1480px;
+    }
+    #three:checked ~ .container .panel{
+        left: -2290px;
+    }
+    #one:checked ~ .container .indicator .line1,
+    #two:checked ~ .container .indicator .line2,
+    #three:checked ~ .container .indicator .line3{
+        border-color:white;
+    }
+
+    #one:checked ~ .container .indicator .step2 span,
+    #two:checked ~ .container .indicator .step3 span,
+    #three:checked ~ .container .indicator .step4 span{
+        color:gold;
+    } 
+    
+   
