@@ -7,7 +7,7 @@ import toy from "./../assets/images/Toy.jpg"
 const Donation2 = () => {
     
   return (
-    <div className='bg-[#8b8b8b] w-[100%] h-[100%]'>
+    <div className=' w-[100%] h-[100%]'>
         <div>
             <div className="projects">
                 <div className="classroom w-[65%] flex gap-4  pt-[20px]">
@@ -27,7 +27,7 @@ const Donation2 = () => {
                     <div className=" flex">
                     <i className="ri-mastercard-fill text-5xl pe-4"></i>
                         <i className="ri-visa-fill text-5xl pe-4"></i>
-                        <button type="submit" className='tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[50px] p-3 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
+                        <button type="submit" className='tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[40px] p-1 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Donation2 = () => {
                     <div className=" flex">
                     <i className="ri-mastercard-fill text-5xl pe-4"></i>
                         <i className="ri-visa-fill text-5xl pe-4"></i>
-                        <button type="submit" className='tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[50px] p-3 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
+                        <button type="submit" className='tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[40px] p-1 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const Donation2 = () => {
                     <div className=" flex">
                     <i className="ri-mastercard-fill text-5xl pe-4"></i>
                         <i className="ri-visa-fill text-5xl pe-4"></i>
-                        <button type="submit" className=' tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[50px] p-3 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
+                        <button type="submit" className=' tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[40px] p-1 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ const Donation2 = () => {
                     <div className=" flex">
                     <i className="ri-mastercard-fill text-5xl pe-4"></i>
                         <i className="ri-visa-fill text-5xl pe-4"></i>
-                        <button type="submit" className=' tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[50px] p-3 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
+                        <button type="submit" className=' tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[40px] p-1 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
                         </div>
                     </div>
                 </div>

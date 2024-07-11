@@ -8,7 +8,7 @@ const Donations = () => {
       <input type="checkbox" id="one" className='hidden' />
       <input type="checkbox" id="two" className='hidden' />
       <input type="checkbox" id="three" className='hidden' />
-      <div className="container w-[50%] h-[70%] relative rounded-[6px] bg-[black] overflow-hidden shadow-sm">
+      <div className="container w-[50%] h-[90%] relative rounded-[6px] bg-[black] overflow-hidden shadow-sm">
         <h1 className='absolute text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold p-[20px] mt-3 text-center w-[100%]'>Sign Up</h1>
         <div className="indicator flex items-center align-middle top-[20%] text-2xl md:2xl lg:2xl xl:text-2xl justify-center absolute w-[100%] h-[50px] ">
           <div className="step  step1">
@@ -32,7 +32,7 @@ const Donations = () => {
           </div>
         </div>
         <div className="panel relative w-[100%] h-[100%] top-0 left-0 transition-all duration-400 ease">
-          <div className="page1 absolute w-[500px] h-[100%] left-[20%] ">
+          <div className="page1 absolute w-[500px] h-[100%] left-[13%] ">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Basic information</h2>
               <div className="form-group">
@@ -48,7 +48,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page2 absolute w-[500px] h-[100%] left-[115%]">
+          <div className="page2 absolute w-[500px] h-[100%] left-[120%]">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Contact information</h2>
               <div className="form-group">
@@ -65,7 +65,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page3 absolute w-[300px] h-[100%] left-[209%] ">
+          <div className="page3 absolute w-[200px] h-[100%] left-[243%] ">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[200%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Personal information</h2>
               <div className="form-group">
@@ -82,7 +82,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page4 absolute w-[500px] h-[100%] left-[325%]">
+          <div className="page4 absolute w-[400px] h-[100%] left-[360%]">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2>Login Details</h2>
               <div className="form-group">

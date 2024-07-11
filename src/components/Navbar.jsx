@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar">
       <div className="menu flex flex-col md:flex-row w-full font-sans align-middle">
         <div className="logo flex justify-center md:justify-start md:w-1/3 p-4">
-          <h2 className='gtext text-3xl md:text-4xl lg:text-5xl py-4 xl:text-6xl'>
+          <h2 className='gtext text-3xl md:text-4xl lg:text-5xl py-4 xl:text-4xl'>
             <i className="ri-vip-crown-line"></i> CwoalG
           </h2>
         </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="notify flex flex-col md:flex-row md:w-1/3 justify-evenly items-center p-4">
-          <img src={me} alt="" className='w-12 md:w-16 lg:w-20 xl:w-18 rounded-full transform hover:scale-110 transition-transform duration-500' />
+          <img src={me} alt="" className='w-12 md:w-16 lg:w-12 xl:w-13 rounded-full transform hover:scale-110 transition-transform duration-500' />
           <p className='w-8 md:w-12 lg:w-16 xl:w-20'>
             <i className="ri-notification-line text-3xl md:text-4xl lg:text-3xl xl:text-3xl  hover:text-black cursor-pointer"></i>
             <i class="ri-moon-line text-3xl md:text-4xl lg:text-6xl xl:text-3xl  hover:text-black cursor-pointer ml-2"></i>
