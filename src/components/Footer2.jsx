@@ -16,7 +16,7 @@ const Footer2 = () => {
     
         elements.forEach((element) => {
           const typed = new Typed(element, {
-            strings: ['Help a child', 'Make the world a better place', 'Thank you for your effort.', 'We really appreciate', 'God bless you'],
+            strings: ['Help a child.', 'Make the world a better place.', 'Thank you for your effort.', 'We really appreciate.', 'God bless you.'],
             typeSpeed: 150,
             backSpeed: 150,
             loop: true
@@ -102,8 +102,8 @@ const Footer2 = () => {
 
                 <span className='font-bold text-2xl'>Contact Us</span>
 
-                <p data-aos="fade-down">No 7 Victory Avenue Olosun Ota, Ogun State</p>
-                <p data-aos="fade-down">Phone: (+234)80-209-216-54</p>
+                <p data-aos="fade-down-right">No 7 Victory Avenue Olosun Ota, Ogun State</p>
+                <p data-aos="fade-down-right">Phone: (+234)80-209-216-54</p>
                 <a href="mailto:">Email: emmanuelforbez@gmail.com</a></p>
                 <p className="py-4 ms-[24%]  text-5xl  ps-4"><span className='spanex'></span></p>
             </div>
