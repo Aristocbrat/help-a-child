@@ -3,7 +3,7 @@ import React from 'react'
 const Footer1 = () => {
   return (
     <div>
-       <div className='footer w-full h-full bg-black text-white rounded-[9px] p-4'>
+       <div className='footer w-full h-full bg-black text-white rounded-[9px] p-4 mt-20'>
       <div className='text-center'>
         <p className=' text-lg md:text-2xl lg:text-3xl xl:text-lg py-10'>
           "The orphanage provides a safe haven for children who have experienced trauma or abuse,

@@ -135,5 +135,10 @@
     #three:checked ~ .container .indicator .step4 span{
         color:gold;
     } 
+
+   .wthcon .text span {
+     
+   }
+    
     
    
