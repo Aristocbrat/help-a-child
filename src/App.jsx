@@ -19,7 +19,7 @@ function App() {
     <Route path='/Donations' element={<Donations/>}/>
     <Route path='/Donations2' element={<Donation2/>}/>
     <Route path='/Wth' element={<Wth/>}/>
-    {/* <Route path='/Aboutus' element={<Aboutus/>}/> */}
+    <Route path='/Aboutus' element={<About-us/>}/>
     {/* <Route path='/Contactus' element={<Contact/>}/> */}
     {/* <Route path='/FAQ' element={<FAQ/>}/> */}
    

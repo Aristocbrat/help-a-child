@@ -17,7 +17,7 @@ const Footer1 = () => {
           <i className="ri-hearts-fill"></i>
         </p>
         <span>
-  <button className='bg-black text-white border border-neutral-50 p-4 rounded-[9px] font-bold'>
+  <button className='bg-black text-white border border-neutral-50 p-4 rounded-[9px] font-bold hover:bg-green-500'>
     Click Here
   </button>
 </span>

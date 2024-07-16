@@ -22,7 +22,7 @@ const Navbar = () => {
             <i className="ri-archive-stack-line"></i> Ways to Help
           </a>
           <a href="/Aboutus" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
-            <i className="ri-user-line"></i> About us
+            <i className="ri-user-line"></i> About-us
           </a>
           <a href="/Contactus" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
             <i className="ri-phone-line"></i> Contact us
