@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Donations from './components/Donations'
 import Donation2 from './components/Donation2'
 import Wth from './components/Wth'
+import Aboutus from './components/Aboutus'
 import Footer2 from './components/Footer2'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     <Route path='/Donations' element={<Donations/>}/>
     <Route path='/Donations2' element={<Donation2/>}/>
     <Route path='/Wth' element={<Wth/>}/>
-    <Route path='/Aboutus' element={<About-us/>}/>
+    <Route path='/Aboutus' element={<Aboutus/>}/>
     {/* <Route path='/Contactus' element={<Contact/>}/> */}
     {/* <Route path='/FAQ' element={<FAQ/>}/> */}
    

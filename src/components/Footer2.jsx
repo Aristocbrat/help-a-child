@@ -24,7 +24,6 @@ const Footer2 = () => {
           typedInstances.push(typed);
         });
     
-        // Cleanup the Typed instances on component unmount
         return () => {
           typedInstances.forEach((typed) => typed.destroy());
         };

@@ -136,8 +136,10 @@
         color:gold;
     } 
 
-   .wthcon .text span {
-     
+   .seperation{
+    background: linear-gradient(to right,  lightgreen ,black, red, green, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
    }
     
     
