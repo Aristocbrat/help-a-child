@@ -12,22 +12,22 @@ const Navbar = () => {
           </h2>
         </div>
         <div className="links flex flex-col md:flex-row md:w-2/3 justify-evenly items-center p-1  mx-auto ">
-          <a href="/" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
+          <a href="/" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300'>
             <i className="ri-home-4-line"></i> Home
           </a>
-          <a href="/Donations" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
+          <a href="/Donations" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300'>
             <i className="ri-service-line"></i> Donations
           </a>
-          <a href="/Wth" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
+          <a href="/Wth" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300'>
             <i className="ri-archive-stack-line"></i> Ways to Help
           </a>
-          <a href="/Aboutus" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
+          <a href="/Aboutus" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300'>
             <i className="ri-user-line"></i> About-us
           </a>
-          <a href="/Contactus" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
+          <a href="/Contactus" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300'>
             <i className="ri-phone-line"></i> Contact us
           </a>
-          <a href="/FAQ" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded'>
+          <a href="/FAQ" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0  hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300'>
             <i className="ri-question-answer-line"></i> FAQ
           </a>
         </div>
