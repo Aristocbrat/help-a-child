@@ -26,17 +26,17 @@ const Aboutus = () => {
             <h1 className='ml-[8%] font-bold text-4xl py-2 '> CwoalG orphanage has a three-tier programme for the children: Rehabilitation, Reformation and Reintegration</h1>
           </div>
       </section>
-      <section className='mt-[4%] bg-black text-white'>
+      <section className='mt-[4%] bg-black text-white' >
         <div className="guestspeakers flex gap-5 px-7 py-5">
           <div className="firstone flex flex-col ">
-          <img src={guest} alt="" className='w-[400px] rounded-[20px]' />
+          <img src={guest} alt="" className='w-[400px] rounded-[20px]'data-aos="flip-right" />
           <p className='w-[370px] border-2 py-3 border-solid border-gray-200 px-4 rounded-[10px] mt-3'> At CWOALG Orphanage, we believe in the transformative power of positive influence and strive to connect our children with individuals 
             who can inspire them to achieve their fullest potential.
             Our guest speakers come from diverse backgrounds and professions, sharing their unique stories, experiences, and wisdom. Through engaging talks and interactive sessions, they address topics such as overcoming challenges, pursuing education and career goals,
              and the importance of self-belief and perseverance.</p>
           </div>
           <div className="secondone">
-          <img src={guest2} alt=""  className='w-[400px] rounded-[20px]'/>
+          <img src={guest2} alt=""  className='w-[400px] rounded-[20px]' data-aos="flip-left"/>
           <p className='w-[370px] border-2 py-3 border-solid border-gray-200 px-4 rounded-[10px] mt-3'>At CWOALG Orphanage, we are thrilled to host events featuring inspiring guest speakers who bring valuable insights and encouragement to
              our children. These events are designed to broaden our children's horizons,
              spark their ambitions, and provide them with role models who exemplify success, resilience, and compassion.</p>
