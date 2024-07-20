@@ -31,9 +31,9 @@ const Navbar = () => {
             <i className="ri-question-answer-line"></i> FAQ
           </a>
         </div>
-        <div className="notify flex flex-col md:flex-row md:w-1/3 justify-evenly items-center p-4">
+        <div className="notify flex flex-col md:flex-row md:w-1/3 justify-evenly items-center p-4 ">
           <img src={me} alt="" className='w-12 md:w-16 lg:w-12 xl:w-13 rounded-full transform hover:scale-110 transition-transform duration-500' />
-          <p className='w-8 md:w-12 lg:w-16 xl:w-20 flex'>
+          <p className='w-8 md:w-12 lg:w-16 xl:w-20 flex gap-2'>
            <div className="bell"> <i className="ri-notification-line text-3xl md:text-4xl lg:text-3xl xl:text-3xl ml-[-2%] hover:text-black cursor-pointer bellignham">
               <ul>
                 <li></li>
@@ -47,7 +47,7 @@ const Navbar = () => {
             <label class="inline-flex items-center relative">
   <input class="peer hidden" id="toggle" type="checkbox" />
   <div
-    class="relative w-[108px] h-[30px] bg-white peer-checked:bg-zinc-500 rounded-full after:absolute after:content-[''] after:w-[20px] after:h-[20px] after:bg-gradient-to-r from-orange-500 to-yellow-400 peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full after:top-[5px] after:left-[5px] active:after:w-[20px] peer-checked:after:left-[90px] peer-checked:after:translate-x-[-80%] shadow-sm duration-300 after:duration-300 after:shadow-md"
+    class="relative w-[108px] h-[30px] bg-[#e8cd] peer-checked:bg-zinc-500 rounded-full after:absolute after:content-[''] after:w-[20px] after:h-[20px] after:bg-gradient-to-r from-orange-500 to-yellow-400 peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full after:top-[5px] after:left-[5px] active:after:w-[20px] peer-checked:after:left-[90px] peer-checked:after:translate-x-[-80%] shadow-sm duration-300 after:duration-300 after:shadow-md"
   ></div>
   <svg
     height="0"
