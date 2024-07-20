@@ -62,10 +62,10 @@ const Footer2 = () => {
           <section className="help gtext ">
             
             <ul className='flex flex-wrap justify-between py-4 text-base md:text-lg lg:text-xl xl:text-lg'>
-              <li className='hover:bg-black hover:text-white hover:p-3 hover:rounded-[9px] '><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Adoption</a></li>
-              <li className='hover:bg-black hover:text-white hover:p-3 hover:rounded-[9px]'><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Counselling</a></li>
-              <li className='hover:bg-black hover:text-white hover:p-3 hover:rounded-[9px]'><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Donations</a></li>
-              <li className='hover:bg-black hover:text-white hover:p-3 hover:rounded-[9px]'><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Awareness</a></li>
+              <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300 '><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Adoption</a></li>
+              <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300'><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Counselling</a></li>
+              <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300'><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Donations</a></li>
+              <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300'><a href="" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Awareness</a></li>
             </ul>
           </section>
           <hr className='p-4 border-black'/>
