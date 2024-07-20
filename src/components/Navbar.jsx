@@ -47,7 +47,7 @@ const Navbar = () => {
             <label class="inline-flex items-center relative">
   <input class="peer hidden" id="toggle" type="checkbox" />
   <div
-    class="relative w-[108px] h-[30px] bg-[#e8cd] peer-checked:bg-zinc-500 rounded-full after:absolute after:content-[''] after:w-[20px] after:h-[20px] after:bg-gradient-to-r from-orange-500 to-yellow-400 peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full after:top-[5px] after:left-[5px] active:after:w-[20px] peer-checked:after:left-[90px] peer-checked:after:translate-x-[-80%] shadow-sm duration-300 after:duration-300 after:shadow-md"
+    class="relative w-[108px] h-[30px] bg-[#334338] peer-checked:bg-zinc-500 rounded-full after:absolute after:content-[''] after:w-[20px] after:h-[20px] after:bg-gradient-to-r from-orange-500 to-yellow-400 peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full after:top-[5px] after:left-[5px] active:after:w-[20px] peer-checked:after:left-[90px] peer-checked:after:translate-x-[-80%] shadow-sm duration-300 after:duration-300 after:shadow-md"
   ></div>
   <svg
     height="0"
