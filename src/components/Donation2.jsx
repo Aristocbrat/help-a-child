@@ -1,4 +1,5 @@
 import React , {useState}from 'react'
+import Footer2 from './Footer2'
 import classr from "./../assets/images/schoool.jpg"
 import reno  from "./../assets/images/renovation.jpg"
 import building from "./../assets/images/building.jpg"
@@ -94,11 +95,12 @@ const Donation2 = () => {
                         </div>
                     </div>
                 </div>
+                <hr  className='border-black p-3'/>
                 
                
             </div>
         </div>
-      
+        <Footer2 />
     </div>
   )
 }
