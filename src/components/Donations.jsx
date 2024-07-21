@@ -69,7 +69,7 @@ const Donations = () => {
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[200%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Personal information</h2>
               <div className="form-group">
-                <input type="number" required />
+                <input type="number" required className='text-black'/>
                 <label>NIN</label>
               </div>
               <div className="form-group">
