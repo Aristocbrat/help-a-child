@@ -79,7 +79,7 @@ const Donation2 = () => {
                     <img src={toy} alt="" className='rounded-[7px] w-[50%] h-[20%]'/>
                     <div className="text">
                     <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>Toys</h2>
-                    <p className='text-lg md:text-2xl lg:text-lg xl:text-lg py-3'>Join us in renovating the orphanage to create a safe, comfortable, and nurturing environment for the children.</p>
+                    <p className='text-lg md:text-2xl lg:text-lg xl:text-lg py-3'>Join us in providing toys for the orphanage to create a happy, comfortable, and nurturing environment for the children.</p>
                     <form action="#">
                         <div className="formg flex flex-col gap-2">
                             <input type="text" name="" required className='p-3 rounded-[20px] bg-black text-white w-[240px]'/>
