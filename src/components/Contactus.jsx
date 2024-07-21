@@ -1,0 +1,101 @@
+import React , {useEffect}from 'react';
+
+const Contactus = () => {
+    useEffect(() => {
+        const time = () => {
+          document.getElementById('year').innerHTML = new Date().getFullYear();
+        };
+        time();
+      }, []);
+  return (
+    <div className='h-full'>
+      <h2 className='flex justify-center py-4 text-4xl font-bold'>Feed African children. Give them life!</h2>
+      <div className="alld flex gap-7">
+        <div className="fillthisout bg-[#011627] w-[700px] h-[639px] ml-[4%] text-white">
+          <p className='text-4xl p-3'>You can get in touch with us.</p>
+          <p className='font-bold p-3'>Feel free to drop us a message below, we'll get to you back as soon as possible.</p>
+          <div className="forms">
+            <form action="/submit-form" method="post" className="flex flex-row justify-between w-full px-6 py-4 gap-4">
+              <div>
+                <label htmlFor="username" className="block">Username (required):</label>
+                <input type="text" id="username" name="username" required className="w-[200px] bg-slate-500" />
+              </div>
+              <div>
+                <label htmlFor="password" className="block">Password (required):</label>
+                <input type="password" id="password" name="password" required className="w-[200px] bg-slate-500" />
+              </div>
+              <div>
+                <label htmlFor="subject" className="block">Subject:</label>
+                <input type="text" id="subject" name="subject" required className="w-[200px] bg-slate-500" />
+              </div>
+            </form>
+            <div className="message px-5">
+              <p className='font-bold p-4'>Your message:</p>
+              <textarea
+                name="message"
+                id="message"
+                className="w-full h-32 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-200"
+                placeholder="Type your message here..."
+              ></textarea>
+              <button type="button" className='bg-[#309cd6] px-3 py-2 rounded-[5px] hover:bg-green-500 duration-300 mt-2'>Send message</button>
+            </div>
+          </div>
+        </div>
+        <div className="googlemap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3962.7106010281473!2d3.2324227380657824!3d6.682727590373935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1721566910654!5m2!1sen!2sng"
+            width="530"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            frameBorder="0"> </iframe>
+          <div className="address  font-bold py-4" >
+              <p>
+                <span className='font-bold text-2xl'>Contact Us</span>
+                <p>No 7 Victory Avenue Olosun Ota, Ogun State</p>
+                <p >Phone: (+234)8020921654</p>
+                <a href="mailto:">Email: emmanuelforbez@gmail.com</a></p>
+                <h3>Emergency Hotline</h3>
+                <p>Line1: (+234)8056113268</p>
+                <p>Line2: (+234)9096005136</p>
+            </div>
+        </div>
+      </div>
+      <div className="closingremarks flex flex-col justify-center font-bold w-[700px] items-center ml-[23%] bg-[] py-6">
+      <h2 className='text-3xl'>Thank you for your kindness dear volunteers</h2>
+      <p>Please download the volunteer form below</p>
+      <a href="" className='hover:bg-black hover:text-white rounded-[5px] py-2 px-4 duration-300'>click here to download form</a>
+      </div>
+      <div className="awareness flex mt-12 justify-center gap-6 px-10">
+                <section className='border-r-4  border-black'>
+                  <h2 className='text-2xl font-bold'>Success stories</h2>
+                  <p>Read about the impact of your contributions and the success stories of the children we support.</p>
+                </section>
+                <section className='border-r-4 border-black'>
+                  <h2 className='text-2xl font-bold'>Get Involved</h2>
+                  <p>Find out how you can get involved and make a difference in a child's life.</p>
+                </section>
+                <section className='border-r-4  border-black'>
+                  <h2 className='text-2xl font-bold'>Legal</h2>
+                  <p>Privacy Policy | Terms of Service.</p>
+                </section>
+                <section >
+                  <h2 className='text-2xl font-bold'>Our Mission</h2>
+                  <p>Providing a safe, nurturing environment where every child can grow, learn, and thrive</p>
+                </section>
+
+            </div>
+      <small className='gtext flex justify-center pt-9 text-base md:text-lg lg:text-xl xl:text-2xl mt-[90px]'>
+              <i className="ri-copyright-line"></i> CwoalG 
+              <span id='year'> </span>
+              <span className='ps-3'> All rights reserved</span>
+            </small>
+    </div>
+  );
+}
+
+export default Contactus;
+
+
