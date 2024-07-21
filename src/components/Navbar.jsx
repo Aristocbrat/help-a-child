@@ -7,9 +7,10 @@ const Navbar = () => {
       <div className="navbar">
       <div className="menu flex flex-col md:flex-row w-full font-sans align-middle">
         <div className="logo flex justify-center md:justify-start md:w-1/3 p-4">
-          <h2 className='gtext text-3xl md:text-4xl lg:text-5xl py-4 xl:text-4xl'>
+        <a href="/"><h2 className='gtext text-3xl md:text-4xl lg:text-5xl py-4 xl:text-4xl seperation font-bold'>
             <i className="ri-vip-crown-line"></i> CwoalG
-          </h2>
+          </h2></a>
+          
         </div>
         <div className="links flex flex-col md:flex-row md:w-2/3 justify-evenly items-center p-1  mx-auto ">
           <a href="/" className='text-xl md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300'>

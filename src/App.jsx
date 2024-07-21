@@ -9,7 +9,7 @@ import Wth from './components/Wth'
 import Aboutus from './components/Aboutus'
 import Contactus from './components/Contactus'
 import Faq from './components/Faq'
-import Footer2 from './components/Footer2'
+
 
 function App() {
 
