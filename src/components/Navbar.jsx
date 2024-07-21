@@ -32,15 +32,9 @@ const Navbar = () => {
           </a>
         </div>
         <div className="notify flex flex-col md:flex-row md:w-1/3 justify-evenly items-center p-4 ">
-          <img src={me} alt="" className='w-12 md:w-16 lg:w-12 xl:w-13 rounded-full transform hover:scale-110 transition-transform duration-500' />
+          <img src={me} alt="" className='w-12 md:w-16 lg:w-12 xl:w-13 rounded-full transform hover:scale-110 transition-transform duration-500'  />
           <p className='w-8 md:w-12 lg:w-16 xl:w-20 flex gap-2'>
-           <div className="bell"> <i className="ri-notification-line text-3xl md:text-4xl lg:text-3xl xl:text-3xl ml-[-2%] hover:text-black cursor-pointer bellignham">
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
+           <div className="bellignham hover:animate-bellRing active:scale-80"> <i className="ri-notification-fill text-3xl md:text-4xl lg:text-3xl xl:text-3xl ml-[-7%] text-black duration-300  hover:text-[#ffd900d5] rounded-full  cursor-pointer " >
             </i>
             </div>
             <div className="mode">
