@@ -40,7 +40,7 @@ const Donations = () => {
                 <label><i className="ri-user-6-line"></i>First name</label>
               </div>
               <div className="form-group">
-                <input type="text" required />
+                <input type="text" required className='text-black' />
                 <label><i className="ri-user-6-line"></i>Last name</label>
               </div>
               <div className="buttons flex items-center justify-between flex-row w-[10%] h-[50px]">
@@ -56,7 +56,7 @@ const Donations = () => {
                 <label><i className="ri-mail-line"></i>Email address</label>
               </div>
               <div className="form-group">
-                <input type="number" required />
+                <input type="number" required  className='text-black'/>
                 <label><i className="ri-phone-line"></i>Phone number</label>
               </div>
               <div className="buttons flex items-center justify-between flex-row w-[80%] h-[50px]">
@@ -90,7 +90,7 @@ const Donations = () => {
                 <label>Username</label>
               </div>
               <div className="form-group">
-                <input type="password" required />
+                <input type="password" required className='text-black' />
                 <label><i className="ri-lock-line"></i>Password</label>
               </div>
               <div className="buttons flex items-center justify-between flex-row w-[80%] h-[50px]">
