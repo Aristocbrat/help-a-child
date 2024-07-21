@@ -51,26 +51,26 @@ const Carousel = () => {
             ))}
       </div>  
     </div>
-    <div className="someimages w-[96%] flex justify-between">
-  <div className="edu py-20 ps-5 border-r-4 border-black flex items-center justify-center flex-col">
+    <div className="someimages w-[96%] flex justify-between ml-[2%]">
+  <div className="edu py-20 ps-5 border-4 border-black flex items-center justify-center flex-col">
     <img src={grad} alt="" className="w-[120%] h-40 object-cover px-8"/>
     <p className='' data-aos='fade-down-right' data-aos-duration='1500'>-Send more children to school and be a part of their success story. </p>
     <p className=' font-bold text-2xl' data-aos='fade-down-right'>Help a chid today. </p>
     <a href="" className='mt-12 hover:scale-110 hover:bg-black hover:text-white transition-transform duration-300 hover:px-8 hover:rounded'>www.Cwoalg.com</a>
   </div>
-  <div className="edu py-20 ps-5 border-r-4 border-black flex items-center justify-center flex-col">
+  <div className="edu py-20 ps-5 border-4 border-black flex items-center justify-center flex-col">
     <img src={rice} alt="" className="w-[95%] h-40 object-cover px-8"/>
     <p data-aos='fade-down-right' data-aos-duration='2000'>-Feed more cildren and make them smile. </p>
     <p className='font-bold text-2xl' data-aos='fade-down-right'>Help a chid today. </p>
     <a href="" className='mt-12 hover:scale-110 hover:bg-black hover:text-white transition-transform duration-300 hover:px-8 hover:rounded'>www.Cwoalg.com</a>
   </div>
-  <div className="edu py-20 ps-5 border-r-4 border-black flex items-center justify-center flex-col">
+  <div className="edu py-20 ps-5 border-4 border-black flex items-center justify-center flex-col">
     <img src={walk} alt="" className="w-[95%] h-40 object-cover px-8 "/>
      <p data-aos='fade-down-right' data-aos-duration='2000'>-Join our monthly awareness march to sensitize the public.</p>
      <p className='font-bold text-2xl' data-aos='fade-down-right'>Help a chid today. </p>
      <a href="" className='mt-12 hover:scale-110 hover:bg-black hover:text-white transition-transform duration-300 hover:px-8 hover:rounded'>www.Cwoalg.com</a>
   </div>
-  <div className="edu py-20 ps-5 border-r-4 border-black flex items-center justify-center flex-col">
+  <div className="edu py-20 ps-5 border-4 border-black flex items-center justify-center flex-col">
     <img src={boyandgirl} alt="" className="w-[95%] h-40 object-cover px-8" />
     <p data-aos='fade-down-right' data-aos-duration='2000' className='px-3'>-Help make a family , no child deserves to be alone .</p>
     <p className='font-bold text-2xl' data-aos='fade-down-right'>Help a chid today. </p>
