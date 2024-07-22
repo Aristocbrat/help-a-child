@@ -35,8 +35,8 @@ const Carousel = () => {
  }
   return (
     <div>
-       <div className='max-w-[70%] min-w-36 relative py-20 mx-auto h-[700px] min-h-36 px-6 group mt-[-2%]'>
-        <div style={{backgroundImage:`url(${myslides[currentIndex]})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'></div>
+       <div className='max-w-[100%] min-w-36 relative py-20 mx-auto h-[650px] min-h-36 px-6 group mt-[-2%]'>
+        <div style={{backgroundImage:`url(${myslides[currentIndex]})`}} className='w-full h-full rounded-[2px] bg-center bg-cover duration-500 '></div>
       <div className='directions'>
         <div className="leftarrow">
            <BsChevronCompactLeft onClick={prevImage}   className='hidden group-hover:block absolute top-[50%] left-0 -translate-y-1/2 rounded-full  text-black bg-slate-500 cursor-pointer text-5xl '/>

@@ -18,7 +18,7 @@ const Footer1 = () => {
         </p>
         <span>
   <button className='bg-black text-white border border-neutral-50 p-4 rounded-[9px] font-bold hover:bg-green-500'>
-    Click Here
+    <a href="/Donations">Click Here</a>
   </button>
 </span>
         <p className='gtext text-xl md:text-2xl lg:text-2xl xl:text-3xl py-4'>
