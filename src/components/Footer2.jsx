@@ -63,7 +63,7 @@ const Footer2 = () => {
             
             <ul className='flex flex-wrap justify-between py-4 text-base md:text-lg lg:text-xl xl:text-lg'>
               <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300 '><a href="/Adoption" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Adoption</a></li>
-              <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300'><a href="/" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Counselling</a></li>
+              <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300'><a href="/Counselling" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Counselling</a></li>
               <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300'><a href="/Donations" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Donations</a></li>
               <li className='hover:bg-black hover:text-white hover:p-2 hover:rounded-[9px] duration-300'><a href="/Awareness" className='font-bold text-xl md:text-2xl lg:text-3xl xl:text-lg'><i className="ri-star-line"></i> Awareness</a></li>
             </ul>

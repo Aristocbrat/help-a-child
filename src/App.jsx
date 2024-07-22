@@ -11,6 +11,7 @@ import Contactus from './components/Contactus'
 import Faq from './components/Faq'
 import Adoption from './components/Adoption'
 import Awareness from './components/Awareness'
+import Counselling from './components/Counselling'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
     <Route path='/FAQ' element={<Faq/>}/>
     <Route path='/Adoption' element={<Adoption/>}/>
     <Route path='/Awareness' element={<Awareness/>}/>
+    <Route path='/Counselling' element={<Counselling/>}/>
 
 
    
