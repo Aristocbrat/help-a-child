@@ -141,6 +141,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
    }
-    
+   .clip{ 
+    position: absolute;
+    width: 500px;
+    height: 800px;
+   }
+
     
    

@@ -53,8 +53,13 @@ export default {
         abox3: 'abox3 4s 1s forwards ease-in-out infinite',
         bellRing: 'bellRing 0.9s both',
       },
+      clipPath:{
+        'custom-shape':'polygon(0 0, 53% 0, 15% 100%, 0 100%)',
+        'custom-shape2':'polygon(48% 0, 89% 0, 37% 100%, 16% 100%)',
+        'custom-shape3':'polygon(89% 0, 100% 0, 100% 100%, 36% 100%)'
+      }
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-clip-path')],
 }
 

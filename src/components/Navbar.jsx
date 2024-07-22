@@ -61,8 +61,7 @@ const Navbar = () => {
 </label>
 
             </div>
-            {/* <i class="ri-moon-line text-3xl md:text-4xl lg:text-6xl xl:text-3xl  hover:text-black cursor-pointer ml-2"></i>
-            <i class="ri-sun-line text-3xl md:text-4xl lg:text-6xl xl:text-3xl  hover:text-black cursor-pointer ml-2"></i> */}
+
           </p>
         </div>
       </div>

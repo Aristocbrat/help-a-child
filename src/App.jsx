@@ -9,6 +9,8 @@ import Wth from './components/Wth'
 import Aboutus from './components/Aboutus'
 import Contactus from './components/Contactus'
 import Faq from './components/Faq'
+import Adoption from './components/Adoption'
+import Awareness from './components/Awareness'
 
 
 function App() {
@@ -24,7 +26,11 @@ function App() {
     <Route path='/Wth' element={<Wth/>}/>
     <Route path='/Aboutus' element={<Aboutus/>}/>
     <Route path='/Contactus' element={<Contactus/>}/>
-    <Route path='/FAQ' element={<Faq/>}/>/
+    <Route path='/FAQ' element={<Faq/>}/>
+    <Route path='/Adoption' element={<Adoption/>}/>
+    <Route path='/Awareness' element={<Awareness/>}/>
+
+
    
     
 

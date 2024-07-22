@@ -1,11 +1,17 @@
-import React , {useState}from 'react'
+import React , {useEffect}from 'react'
 import Footer2 from './Footer2'
 import classr from "./../assets/images/schoool.jpg"
 import reno  from "./../assets/images/renovation.jpg"
 import building from "./../assets/images/building.jpg"
 import toy from "./../assets/images/Toy.jpg"
 
+
+
+
 const Donation2 = () => {
+    useEffect(()=>{
+        alert("Beware of Scammers!!")
+    })
     
   return (
     <div className=' w-[100%] h-[100%]'>
