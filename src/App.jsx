@@ -12,6 +12,7 @@ import Faq from './components/Faq'
 import Adoption from './components/Adoption'
 import Awareness from './components/Awareness'
 import Counselling from './components/Counselling'
+import Readmore from './components/Readmore'
 
 
 function App() {
@@ -31,11 +32,7 @@ function App() {
     <Route path='/Adoption' element={<Adoption/>}/>
     <Route path='/Awareness' element={<Awareness/>}/>
     <Route path='/Counselling' element={<Counselling/>}/>
-
-
-   
-    
-
+    <Route path='/Readmore' element={<Readmore/>}/>
    </Routes>
    </>
   )

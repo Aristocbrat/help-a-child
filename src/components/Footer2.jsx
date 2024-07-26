@@ -43,7 +43,7 @@ const Footer2 = () => {
                      It must be because we want to raise a child for God as a demonstration of our love.
                      Every child is a gift from God.</span>
                      </div>
-                     <button className='border-white py-4'>Read more <i class="ri-skip-right-line"></i></button><br/>
+                     <a href="/Readmore"><button className='border-white py-3 hover:bg-green-500 hover:py-2  hover:rounded-[20px] hover:mt-2 duration-500'>Read more <i className="ri-skip-right-line"></i></button></a><br/>
               Subscribe to our Channel on YouTube and check out our Programs.
               <i className="ri-youtube-fill text-4xl text-red-600"></i>
             </h2>
