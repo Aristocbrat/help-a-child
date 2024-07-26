@@ -57,7 +57,20 @@ export default {
         'custom-shape':'polygon(0 0, 53% 0, 15% 100%, 0 100%)',
         'custom-shape2':'polygon(48% 0, 89% 0, 37% 100%, 16% 100%)',
         'custom-shape3':'polygon(89% 0, 100% 0, 100% 100%, 36% 100%)'
-      }
+      },
+      screens:{
+        "sm" : "350px",
+        "md" :"568px",
+        "lg" : "8024px",
+        "xl" : "1080px",
+        "2xl" :"1536px",
+      },
+      width: {
+        '128': '32rem',
+        '160': '40rem',
+        '192': '78rem',
+         
+      },
     },
   },
   plugins: [require('tailwind-clip-path')],

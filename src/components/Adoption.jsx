@@ -16,36 +16,36 @@ const Adoption = () => {
     <div className='bg-[#6c584c] text-white '>
       <div className="main  px-5 py-5 ">
         <h1 className='font-bold text-3xl flex items-center justify-center py-2'>Adoption</h1>
-        <h1 className='font-bold text-3xl flex items-center justify-center py-2'>Welcome to Our Adoption Program</h1>
+        <h1 className='font-bold xl:text-3xl flex items-center justify-center py-2'>Welcome to Our Adoption Program</h1>
         <p className='py-2 font-semibold'>Adopting a child is a profound and life-changing experience. 
         At CwoalG, we are dedicated to helping you navigate this journey with compassion and support.
         Below, you will find detailed information about the adoption process, requirements,
         and how to get started.</p>
       </div>
-      <section className=' mt-[1%] px-6 flex gap-2'>
-      <div className="clips relative w-[700px] h-[400px]">
+      <section className=' mt-[1%] px-6 flex xl:flex-row sm:flex-col gap-2'>
+      <div className="clips relative xl:w-[700px] sm:w-[400px] h-[400px]">
         <div className="clip clip1 clip-path-custom-shape">
-          <img src={clip1} alt=""  className='w-[600px] h-[250px] object-cover'/>
+          <img src={clip1} alt=""  className='xl:w-[600px]   h-[250px] object-cover'/>
           
         </div>
         <div className="clip clip2 clip-path-custom-shape2">
-        <img src={clip2} alt="" className='w-[600px] h-[250px] object-cover' />
+        <img src={clip2} alt="" className='xl:w-[600px] h-[250px] object-cover' />
        
         </div>
         <div className="clip clip3 clip-path-custom-shape3">
-        <img src={clip3} alt="" className='w-[600px] h-[250px] object-cover' />
+        <img src={clip3} alt="" className='xl:w-[600px] h-[250px] object-cover' />
         
         </div>
        
       </div>
-      <div className="why">
-          <h1 className='text-4xl '>Why Adopt from CwoalG?</h1>
+      <div className="why xl:mt-0  sm:mt-[-27%]">
+          <h1 className='xl:text-4xl  sm:text-2xl'>Why Adopt from CwoalG?</h1>
           <ul className='py-3 px-4'>
-            <li>-<i className="ri-heart-fill text-red-700"></i> <span className='text-2xl'>Loving Environment</span> : Our children are raised in a nurturing environment
+            <li>-<i className="ri-heart-fill text-red-700"></i> <span className='xl:text-2xl'>Loving Environment</span> : Our children are raised in a nurturing environment
                that prioritizes their well-being and development.</li>
-            <li>-<i className="ri-group-fill"></i> <span className='text-2xl'>Supportive Staff</span>: Our experienced staff will guide you
+            <li>-<i className="ri-group-fill"></i> <span className='xl:text-2xl'>Supportive Staff</span>: Our experienced staff will guide you
                through every step of the adoption process.</li>
-            <li>-<i className="ri-heart-fill"></i> <span className='text-2xl'>Comprehensive Care</span>: We ensure that every child receives proper medical care,
+            <li>-<i className="ri-heart-fill"></i> <span className='xl:text-2xl'>Comprehensive Care</span>: We ensure that every child receives proper medical care,
                education, and emotional support.</li>
             <li></li>
            
@@ -108,16 +108,16 @@ const Adoption = () => {
                 <p className="py-4 ms-[24%]  text-5xl  ps-4"><span className='spanex'></span></p>
             </div>
            
-            <div className="awareness flex mt-12 justify-center gap-6 px-6">
-                <section className='border-r-4  border-black'>
+            <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 px-6">
+                <section className='xl:border-r-4  border-black'>
                   <h2 className='text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
-                <section className='border-r-4 border-black'>
+                <section className='xl:border-r-4 border-black'>
                   <h2 className='text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
-                <section className='border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black'>
                   <h2 className='text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>

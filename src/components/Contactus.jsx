@@ -9,13 +9,13 @@ const Contactus = () => {
       }, []);
   return (
     <div className='h-full'>
-      <h2 className='flex justify-center py-4 text-4xl font-bold'>Feed African children. Give them life!</h2>
-      <div className="alld flex gap-7">
-        <div className="fillthisout bg-[#011627] w-[700px] h-[639px] ml-[4%] text-white">
-          <p className='text-4xl p-3'>You can get in touch with us.</p>
+      <h2 className='flex justify-center py-4 xl:text-4xl  font-bold'>Feed African children. Give them life!</h2>
+      <div className="alld flex xl:flex-row sm:flex-col gap-7 xl:px-2 sm:px-4">
+        <div className="fillthisout bg-[#011627] xl:w-[700px] h-[639px] sm:w-[360px] xl:ml-[4%] text-white xl:px-1 sm:px-8">
+          <p className='xl:text-4xl p-3'>You can get in touch with us.</p>
           <p className='font-bold p-3'>Feel free to drop us a message below, we'll get to you back as soon as possible.</p>
           <div className="forms">
-            <form action="/submit-form" method="post" className="flex flex-row justify-between w-full px-6 py-4 gap-4">
+            <form action="/submit-form" method="post" className="flex xl:flex-row sm:flex-wrap justify-between w-full xl:px-6 py-4 gap-4">
               <div>
                 <label htmlFor="username" className="block">Username (required):</label>
                 <input type="text" id="username" name="username" required className="w-[200px] bg-slate-500" />
@@ -29,8 +29,8 @@ const Contactus = () => {
                 <input type="text" id="subject" name="subject" required className="w-[200px] bg-slate-500" />
               </div>
             </form>
-            <div className="message px-5">
-              <p className='font-bold p-4'>Your message:</p>
+            <div className="message xl:px-5">
+              <p className='font-bold xl:p-4'>Your message:</p>
               <textarea
                 name="message"
                 id="message"
@@ -41,12 +41,12 @@ const Contactus = () => {
             </div>
           </div>
         </div>
-        <div className="googlemap">
+        <div className="googlemap xl:px-4 sm:px-8">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3962.7106010281473!2d3.2324227380657824!3d6.682727590373935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1721566910654!5m2!1sen!2sng"
             width="530"
             height="450"
-            style={{ border: 0 }}
+            style={{ border: 0, maxWidth:"100%" }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -63,21 +63,21 @@ const Contactus = () => {
             </div>
         </div>
       </div>
-      <div className="closingremarks flex flex-col justify-center font-bold w-[700px] items-center ml-[23%] bg-[] py-6">
-      <h2 className='text-3xl'>Thank you for your kindness dear volunteers</h2>
+      <div className="closingremarks flex flex-col justify-center font-bold xl:w-[700px] items-center xl:ml-[23%] bg-[] py-6">
+      <h2 className='xl:text-3xl'>Thank you for your kindness dear volunteers</h2>
       <p>Please download the volunteer form below</p>
       <a href="" className='hover:bg-black hover:text-white rounded-[5px] py-2 px-4 duration-300'>click here to download form</a>
       </div>
-      <div className="awareness flex mt-12 justify-center gap-6 px-10">
-                <section className='border-r-4  border-black'>
+      <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 px-10">
+                <section className='xl:border-r-4  border-black'>
                   <h2 className='text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
-                <section className='border-r-4 border-black'>
+                <section className='xl:border-r-4 border-black'>
                   <h2 className='text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
-                <section className='border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black'>
                   <h2 className='text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>

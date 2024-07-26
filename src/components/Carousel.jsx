@@ -51,7 +51,7 @@ const Carousel = () => {
             ))}
       </div>  
     </div>
-    <div className="someimages w-[96%] flex justify-between ml-[2%]">
+    <div className="someimages w-[96%] flex xl:flex-row sm:flex-col justify-between ml-[2%]">
   <div className="edu py-20 ps-5 border-4 border-black flex items-center justify-center flex-col">
     <img src={grad} alt="" className="w-[120%] h-40 object-cover px-8"/>
     <p className='' data-aos='fade-down-right' data-aos-duration='1200'>-Send more children to school and be a part of their success story. </p>

@@ -147,5 +147,11 @@
     height: 800px;
    }
 
+   @media (min-width:350px) and (max-width:992px) {
+      .clip{
+        width: 350px;
+      }
+   }
+
     
    

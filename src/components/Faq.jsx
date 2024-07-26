@@ -8,72 +8,72 @@ const Faq = () => {
         time();
       }, []);
   return (
-    <div className='py-4'>
-        <h1 className='text-4xl font-bold flex items-center justify-center py-2'> <i className="ri-vip-crown-line"></i> General Information</h1>
-      <div className="qandanswers flex flex-wrap px-4 gap-4 justify-between text-white">
+    <div className='py-4 '>
+        <h1 className='xl:text-4xl sm:text-2xl font-bold flex  items-center justify-center py-2'> <i className="ri-vip-crown-line"></i> General Information</h1>
+      <div className="qandanswers flex flex-wrap sm:flex-col xl:flex-row px-4 gap-4 justify-between text-white">
         
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
-            <p className='px-4 text-3xl py-3 '>Q: What is CwoalG?</p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl sm:text-lg py-3 '>Q: What is CwoalG?</p>
             <p className='px-4 py-3'>Ans: CwoalG  [Orphanage Name] is a non-profit organization dedicated to providing a safe,
                  nurturing environment for orphaned and abandoned children.
                  We focus on their overall development, including education, health, and emotional well-being.</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
-            <p className='px-4 text-3xl  py-3'>Q:Where is CwoalG located?</p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl  py-3'>Q:Where is CwoalG located?</p>
             <p className='px-4  py-4'>Ans: We are located at No 7 Victory Avenue Olosun Ota,
                  Sango-ota, Ogun State, Nigeria. You can find a map and directions on our <a href="/Contactus">Contact Us</a> page.</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
-            <p className='px-4 text-3xl py-3'>Q: How can I donate to CwoalG? </p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl sm:text-lg py-3'>Q: How can I donate to CwoalG? </p>
             <p className='px-4  py-3'>Ans: You can donate online via our <a href="/Donations">Donation</a> Page, or you can mail checks to our address.
              We also accept donations in the form of clothing, toys, books, and other essentials. 
             Please contact us for more details</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-left" data-aos-duration='1500'>
-            <p className='px-4 text-3xl  py-3'>Q: How can I volunteer at CwoalG?</p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-left" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl  py-3'>Q: How can I volunteer at CwoalG?</p>
             <p className='px-4  py-3'>Ans: We welcome volunteers! Please fill out the volunteer application form on our Volunteer Page.
                  After reviewing your application,
                  we will contact you to discuss available opportunities and any necessary training.</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-left" data-aos-duration='1500'>
-            <p className='px-4 text-3xl  py-3'>Q: What types of volunteer opportunities are available?</p>
-            <p className='px-4  py-3'>Ans: Volunteers can assist with various tasks, including tutoring, organizing activities, helping with events,
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-left" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl  py-3'>Q: What types of volunteer opportunities are available?</p>
+            <p className='px-4  xl:py-3 sm:py-[-2px]'>Ans: Volunteers can assist with various tasks, including tutoring, organizing activities, helping with events,
                  and providing administrative support.
                  We match volunteers' skills and interests with our needs.</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-left" data-aos-duration='1500'>
-            <p className='px-4 text-3xl py-3'>Q: How can I adopt a child from CwoalG?</p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-left" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl py-3'>Q: How can I adopt a child from CwoalG?</p>
             <p className='px-4  py-3'>Ans: If you are interested in adopting, please visit our Adoption Page for detailed information on the process, requirements,
                  and application forms.
                  Our adoption coordinator will guide you through every step.</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
-            <p className='px-4 text-3xl  py-3'>Q: How can I sponsor a child?</p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl  py-3'>Q: How can I sponsor a child?</p>
             <p className='px-4  py-3'>Ans:  Sponsoring a child helps provide them with food, education, and healthcare. 
                 You can learn more about our sponsorship program and choose a child to sponsor on our <a href="">Sponsorship</a> Page.</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
-            <p className='px-4 text-3xl  py-3'>Q: What do I receive as a sponsor?</p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl  py-3'>Q: What do I receive as a sponsor?</p>
             <p className='px-4  py-3'>Ans: As a sponsor, you will receive regular updates on your sponsored child's progress, letters, and photos.
                  You will see the direct impact of your support on their life.</p>
           </div>
-          <div className="card1 bg-[#011627] w-[420px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
-            <p className='px-4 text-3xl  py-3'>Q: Can I visit the orphanage?</p>
+          <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[360px] h-[250px] rounded-[10px]" data-aos="slide-right" data-aos-duration='1500'>
+            <p className='px-4 xl:text-3xl  py-3'>Q: Can I visit the orphanage?</p>
             <p className='px-4  py-3'>Ans: Yes, we welcome visitors! 
                 Please contact us to schedule a visit so we can ensure it does not disrupt the children's activities and routines.</p>
           </div>
           
       </div>
-      <div className="awareness flex mt-12 justify-center gap-6 px-7">
-                <section className='border-r-4  border-black'>
+      <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 px-7">
+                <section className='xl:border-r-4  border-black'>
                   <h2 className='text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
-                <section className='border-r-4 border-black'>
+                <section className='xl:border-r-4 border-black'>
                   <h2 className='text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
-                <section className='border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black'>
                   <h2 className='text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>
