@@ -32,7 +32,7 @@ const Donations = () => {
           </div>
         </div>
         <div className="panel relative w-[100%] h-[100%] top-0 left-0 transition-all duration-400 ease">
-          <div className="page1 absolute w-[500px] h-[100%] xl:left-[13%] sm:left-[-20%] ">
+          <div className="page1 absolute w-[500px] h-[100%] xl:left-[13%] sm:left-[-22%] ">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Basic information</h2>
               <div className="form-group">
@@ -48,7 +48,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page2 absolute w-[500px] h-[100%] xl:left-[120%] sm:left-[84%]">
+          <div className="page2 absolute w-[500px] h-[100%] xl:left-[120%] sm:left-[85%]">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Contact information</h2>
               <div className="form-group">
@@ -65,7 +65,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page3 absolute w-[200px] h-[100%] xl:left-[243%] sm:left-[244%] ">
+          <div className="page3 absolute w-[200px] h-[100%] xl:left-[243%] sm:left-[254%] ">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[200%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Personal information</h2>
               <div className="form-group">
@@ -82,7 +82,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page4 absolute w-[400px] h-[100%] xl:left-[360%] sm:left-[334%]">
+          <div className="page4 absolute w-[400px] h-[100%] xl:left-[360%] sm:left-[344%]">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2>Login Details</h2>
               <div className="form-group">
