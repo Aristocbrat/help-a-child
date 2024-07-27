@@ -65,7 +65,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page3 absolute w-[200px] h-[100%] xl:left-[243%] sm:left-[254%] ">
+          <div className="page3 absolute w-[200px] h-[100%] xl:left-[243%] sm:left-[246%] ">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[200%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Personal information</h2>
               <div className="form-group">
@@ -82,7 +82,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page4 absolute w-[400px] h-[100%] xl:left-[360%] sm:left-[344%]">
+          <div className="page4 absolute w-[400px] h-[100%] xl:left-[360%] sm:left-[335%]">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2>Login Details</h2>
               <div className="form-group">

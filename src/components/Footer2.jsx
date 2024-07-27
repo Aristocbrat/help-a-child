@@ -69,7 +69,7 @@ const Footer2 = () => {
           </section>
           <hr className='p-4 border-black'/>
           <div className="footerBottom gtext">
-            <div className="socials py-7 xl:w-[990px]" data-aos="fade-up">
+            <div className="socials xl:py-7 xl:w-full" data-aos="fade-up">
               <ul className='flex flex-wrap xl:justify-between sm:justify-evenly text-base md:text-lg lg:text-xl xl:text-2xl xl:gap-3 sm:gap-1'>
                 <li>
                   <a href="" title='Instagram'>
@@ -92,7 +92,7 @@ const Footer2 = () => {
                   </a>
                 </li>
                 <li><p className='font-bold pt-3 sm:ml-[-1%] xl:mt-0 sm:mt-[-3%] px-4'>You can follow us on our socials <i class="ri-thumb-up-line "></i></p></li>
-                <li><p className='xl:px-5 xl:ml-0 sm:ml-[18%]  w-[200px]'>
+                <li><p className='xl:px-5 xl:ml-0 sm:ml-[18%]  w-[300px]'>
                   <label className="relative text-[#fc7c9e] xl:flex cursor-pointer items-center justify-center gap-[1em]"for="heart">
   <input class="peer appearance-none" id="heart" name="heart" type="checkbox" />
   <span class="absolute left-0 top-1/2 h-[2em] w-[2em] -translate-x-full -translate-y-1/2 rounded-[0.25em] border-[2px] border-[#FF91AF]">
@@ -120,9 +120,9 @@ const Footer2 = () => {
             </div>
 
             {/* ---------------------------------------------------------------------------- */}
-            <div className="address  font-bold px-5 " >
+            <div className="address  font-bold px-5 mt-8 xl:mt-0 " >
               <p>
-                <span className='font-bold text-2xl'>Contact Us</span>
+                <span className='font-bold xl:text-2xl'>Contact Us</span>
                 <p data-aos="fade-down-right">No 7 Victory Avenue Olosun Ota, Ogun State</p>
                 <p data-aos="fade-down-right">Phone: (+234)8020921654</p>
                 <a href="mailto:">Email: emmanuelforbez@gmail.com</a></p>

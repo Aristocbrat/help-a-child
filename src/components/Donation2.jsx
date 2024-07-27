@@ -17,12 +17,15 @@ const Donation2 = () => {
   return (
     <div className=' w-[100%] h-[100%] px-3'>
         <div>
+        <hr  className='border-black p-3'/>
             <div className="projects px-4">
-                <div className="classroom w-[65%] flex xl:flex-row sm:flex-col gap-4  pt-[20px]">
+                
+                <div className="classroom xl:w-[65%] sm:w-[90%] flex xl:flex-row sm:flex-col gap-4  pt-[20px]">
+                    
                     <img src={classr} alt="" className='rounded-[7px] xl:w-[50%] sm:w-[90%] h-[100%]'/>
                     <div className="text">
                     <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>School Project</h2>
-                    <p className='text-lg md:text-2xl lg:text-3xl xl:text-lg py-3'>Put more children in school <br/>
+                    <p className='text-[13px] md:text-2xl lg:text-3xl xl:text-lg py-3'>Put more children in school <br/>
                     "Ensure children stay in school."</p>
                     <form action="#">
                         <div className="formg flex flex-col gap-2">
@@ -40,7 +43,7 @@ const Donation2 = () => {
                     </div>
                 </div>
                 <hr  className='border-black p-3'/>
-                <div className="building w-[65%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
+                <div className="building xl:w-[65%] sm:w-[90%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
                     <img src={building} alt="" className='rounded-[7px] xl:w-[50%] sm:w-[90%] h-[100%]'/>
                     <div className="text">
                     <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>Building Project</h2>
@@ -61,7 +64,7 @@ const Donation2 = () => {
                     </div>
                 </div>
                 <hr  className='border-black p-3'/>
-                <div className="Renovation w-[65%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
+                <div className="Renovation xl:w-[65%] sm:w-[90%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
                     <img src={reno} alt="" className='rounded-[7px] xl:w-[50%] sm:w-[90%] h-[100%]'/>
                     <div className="text">
                     <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>Building Renovation</h2>
@@ -82,7 +85,7 @@ const Donation2 = () => {
                     </div>
                 </div>
                 <hr  className='border-black p-3'/>
-                <div className="Renovation w-[65%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
+                <div className="Renovation xl:w-[65%] sm:w-[90%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
                     <img src={toy} alt="" className='rounded-[7px] xl:w-[50%] sm:w-[90%] h-[20%]'/>
                     <div className="text">
                     <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>Toys</h2>
@@ -103,7 +106,7 @@ const Donation2 = () => {
                     </div>
                 </div>
                 <hr  className='border-black p-3'/>
-                <div className="heart w-[65%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
+                <div className="heart xl:w-[65%] sm:w-[90%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
                     <img src={heart} alt="" className='rounded-[7px] xl:w-[50%] sm:w-[90%] h-[10%]'/>
                     <div className="text">
                     <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>Heart donations</h2>

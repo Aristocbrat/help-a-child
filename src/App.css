@@ -187,6 +187,15 @@
     }
       
    }
+   @media (max-width:375px) {
+
+      .page3{
+        left: 250% !important;
+      }
+     .page4{
+        left: 342% !important;
+     }
+   }
 
     
    

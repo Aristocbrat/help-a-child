@@ -47,14 +47,14 @@ const Carousel = () => {
       </div>
       <div className="dots flex top-4 justify-center py-2 ">
             {myslides.map((myslides,slideIndex)=>(
-                 <div key={slideIndex} onClick={()=>goToSlide(slideIndex)}><RxDotFilled className='text-5xl  text-slate-500 cursor-pointer'/></div> 
+                 <div key={slideIndex} onClick={()=>goToSlide(slideIndex)}><RxDotFilled className='xl:text-5xl sm:text-2xl  text-slate-500 cursor-pointer'/></div> 
             ))}
       </div>  
     </div>
     <div className="someimages w-[96%] flex xl:flex-row sm:flex-col justify-between ml-[2%]">
   <div className="edu py-20 ps-5 border-4 border-black flex items-center justify-center flex-col">
     <img src={grad} alt="" className="w-[120%] h-40 object-cover px-8"/>
-    <p className='' data-aos='fade-down-right' data-aos-duration='1200'>-Send more children to school and be a part of their success story. </p>
+    <p className='px-3' data-aos='fade-down-right' data-aos-duration='1200'>-Send more children to school and be a part of their success story. </p>
     <p className=' font-bold text-2xl' data-aos='fade-down-right'>Help a chid today. </p>
     <a href="" className='mt-12 hover:scale-110 hover:bg-black hover:text-white transition-transform duration-300 hover:px-8 hover:rounded'>www.Cwoalg.com</a>
   </div>

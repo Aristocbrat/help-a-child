@@ -12,12 +12,12 @@ const Awareness = () => {
   return (
     <div className='bg-black text-white'>
         <div className="raise">
-            <h1 className='text-4xl font-bold flex justify-center py-3 '>Raise Awareness</h1>
-            <h2 className='text-3xl font-semibold flex justify-center py-4'>The Plight of Orphaned Children</h2>
+            <h1 className='xl:text-4xl font-bold flex  justify-center py-3 '>Raise Awareness</h1>
+            <h2 className='xl:text-3xl font-semibold flex justify-center py-4'>The Plight of Orphaned Children</h2>
             <div className="protest w-full flex flex-col py-3 px-5 gap-5">
             <hr className='p-4 text-black' />
                 <img src={walk2} alt="" className='w-[500px] '/>
-                <span className='absolute ml-[40%] w-[500px] font-semibold mt-12'>Every child deserves a safe and loving home. Unfortunately,
+                <span className='absolute xl:ml-[40%] xl:w-[500px] font-semibold xl:mt-12 sm:mt-[77%] text-[13px] xl:text-lg px-4'>Every child deserves a safe and loving home. Unfortunately,
                      millions of children around the world are orphaned, abandoned, 
                     or separated from their families. These children face significant challenges, including: <br/>
                     Lack of Basic Needs: Many orphaned children struggle 
@@ -28,9 +28,9 @@ const Awareness = () => {
                     </span>
 
 
-                <hr className='p-4 text-black' />
-                <img src={guest3} alt="" className='w-[500px] ml-[50%]'/>
-                <span className='absolute w-[500px] font-semibold mt-[36%] ml-5'>
+                <hr className='p-4 text-black mt-[80%] xl:mt-0' />
+                <img src={guest3} alt="" className='w-[500px] xl:ml-[50%] mt-[2%]'/>
+                <span className='absolute xl:w-[500px] font-semibold xl:mt-[36%] sm:mt-[238%] xl:ml-5 text-[13px] xl:text-lg px-4'>
                 Health Risks: Orphaned children often lack access to proper medical care and are at higher
                  risk for health issues. <br/>
                  Emotional Trauma: The loss of parents and family can lead to severe emotional and psychological trauma.<br/>
@@ -40,10 +40,10 @@ const Awareness = () => {
                  Provide Comprehensive Care: Ensure that every child has access to food, shelter, education, and medical care.<br/>
                  Create a Loving Environment: Foster a sense of family and belonging for all children in our care.
                 </span>
-                <hr className='p-4 font-bold text-black' />
+                <hr className='p-4 font-bold text-black mt-[90%] xl:mt-0' />
 
                 <img src={walk3} alt="" className='w-[500px] ' />
-                <span className='absolute w-[500px] font-semibold mt-[65%] ml-[43%]'>
+                <span className='absolute xl:w-[500px] font-semibold xl:mt-[62%] sm:mt-[390%] xl:ml-[43%] text-[13px] xl:text-lg px-4 py-0 xl:py-5'>
                 Success Stories<br/>
                 Here are a few stories of how your support has made a difference:<br/>
                 Maria's Journey:<br/>
@@ -54,12 +54,13 @@ const Awareness = () => {
                Aisha was abandoned at birth but found a new family through our adoption program. 
                She is now part of a loving home where she is cherished and cared for.
                 </span>
+                <hr className='p-4 font-bold text-black mt-[90%] xl:mt-0' /> 
 
             </div>
         </div>
-        <div className="hych px-5 bg-black text-white ">
-        <hr className='p-4 font-bold text-black' />
-            <h1 className='text-3xl flex justify-center py-4'>How You Can Help</h1>
+        <div className="hych px-5 bg-black text-white  xl:mt-0 ">
+        {/* <hr className='p-4 font-bold text-black' /> */}
+            <h1 className='xl:text-3xl flex justify-center py-4'>How You Can Help</h1>
             <p className='font-semibold'> There are many ways you can support the children at CwoalG:</p>
             <div className="ways">
                 <p className='py-2'>1. Your financial contributions make a huge difference. <a href="/Donations" className='hover:underline font-bold'>Donate</a> Now to help provide essential care and support for our children.</p>
@@ -70,36 +71,36 @@ const Awareness = () => {
                 <p className='py-2'>5. Join us at our fundraising events and community programs. Check Our Events Calendar for upcoming activities.</p>
             </div>
             <div className="hr mt-5">
-                <h1 className='text-3xl flex justify-center py-4'>Resources and Information</h1>
-                <div className="classes flex justify-around px-8">
-                    <div className="stats w-[300px] border-r-2">
-                        <h1 className='text-2xl'>Statistics and Reports:</h1>
-                        <p className='ml-[-10%]'>Learn more about the global orphan crisis with our detailed reports and statistics. 
+                <h1 className='xl:text-3xl flex justify-center py-4'>Resources and Information</h1>
+                <div className="classes flex flex-col xl:flex-row justify-around xl:px-8">
+                    <div className="stats w-[300px] xl:border-r-2 py-3 xl:py-0 ">
+                        <h1 className='xl:text-2xl'>Statistics and Reports:</h1>
+                        <p className='xl:ml-[-10%]'>Learn more about the global orphan crisis with our detailed reports and statistics. 
                             View <a href="" className='hover:underline'>Reports</a></p>
                     </div>
-                    <div className="edumat w-[300px] border-r-2">
-                        <h1 className='text-2xl'>Educational Materials:</h1>
-                        <p className='ml-[-19%]'>Access educational materials and resources to understand the issues faced by orphaned children. <a href="">Read More</a></p>
+                    <div className="edumat w-[300px] xl:border-r-2 py-3 xl:py-0">
+                        <h1 className='xl:text-2xl'>Educational Materials:</h1>
+                        <p className='xl:ml-[-19%]'>Access educational materials and resources to understand the issues faced by orphaned children. <a href="">Read More</a></p>
                     </div>
-                    <div className="partner w-[300px]">
-                        <h1 className='text-2xl'>Partner with Us:</h1>
-                        <p className='ml-[-19%]'>We collaborate with various organizations and businesses to enhance our impact. 
+                    <div className="partner w-[300px] py-3 xl:py-0">
+                        <h1 className='xl:text-2xl'>Partner with Us:</h1>
+                        <p className='xl:ml-[-19%]'>We collaborate with various organizations and businesses to enhance our impact. 
                             Partner with Us to learn more about partnership opportunities.</p>
                     </div>
                 </div>
             </div>
         </div>
         <hr className='p-4 font-bold ' />
-        <div className="address  font-bold  px-7" >
+        {/* <div className="address  font-bold  px-7" >
               <p>
                 <span className='font-bold text-2xl'>Contact Us</span>
                 <p data-aos="fade-down-right">No 7 Victory Avenue Olosun Ota, Ogun State</p>
                 <p data-aos="fade-down-right">Phone: (+234)8020921654</p>
                 <a href="mailto:">Email: emmanuelforbez@gmail.com</a></p>
                 <p className="py-4 ms-[24%]  text-5xl  ps-4"><span className='spanex'></span></p>
-            </div>
+            </div> */}
            
-            <div className="awareness flex mt-12 justify-center gap-6 px-6">
+            {/* <div className="awareness flex mt-12 justify-center gap-6 px-6">
                 <section className='border-r-4  border-red-500'>
                   <h2 className='text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
@@ -117,7 +118,7 @@ const Awareness = () => {
                   <p>Providing a safe, nurturing environment where every child can grow, learn, and thrive</p>
                 </section>
 
-            </div>
+            </div> */}
             <small className='gtext flex justify-center pt-9 text-base md:text-lg lg:text-xl xl:text-2xl mt-[90px]'>
               <i className="ri-copyright-line"></i> CwoalG 
               <span id='year'> </span>
