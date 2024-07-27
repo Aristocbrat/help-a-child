@@ -11,7 +11,7 @@ const Contactus = () => {
     <div className='h-full'>
       <h2 className='flex justify-center py-4 xl:text-4xl  font-bold'>Feed African children. Give them life!</h2>
       <div className="alld flex xl:flex-row sm:flex-col gap-7 xl:px-2 sm:px-4">
-        <div className="fillthisout bg-[#011627] xl:w-[700px] h-[639px] sm:w-[360px] xl:ml-[4%] text-white xl:px-1 sm:px-8">
+        <div className="fillthisout bg-[#011627] xl:w-[700px] h-[639px] sm:w-[330px] mx-auto text-white xl:px-1 sm:px-8">
           <p className='xl:text-4xl p-3'>You can get in touch with us.</p>
           <p className='font-bold p-3'>Feel free to drop us a message below, we'll get to you back as soon as possible.</p>
           <div className="forms">
@@ -68,21 +68,21 @@ const Contactus = () => {
       <p>Please download the volunteer form below</p>
       <a href="" className='hover:bg-black hover:text-white rounded-[5px] py-2 px-4 duration-300'>click here to download form</a>
       </div>
-      <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 px-10">
+      <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 xl:px-10 sm:px-6">
                 <section className='xl:border-r-4  border-black'>
-                  <h2 className='text-2xl font-bold'>Success stories</h2>
+                  <h2 className='xl:text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
                 <section className='xl:border-r-4 border-black'>
-                  <h2 className='text-2xl font-bold'>Get Involved</h2>
+                  <h2 className='xl:text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
                 <section className='xl:border-r-4  border-black'>
-                  <h2 className='text-2xl font-bold'>Legal</h2>
+                  <h2 className='xl:text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>
                 <section >
-                  <h2 className='text-2xl font-bold'>Our Mission</h2>
+                  <h2 className='xl:text-2xl font-bold'>Our Mission</h2>
                   <p>Providing a safe, nurturing environment where every child can grow, learn, and thrive</p>
                 </section>
 

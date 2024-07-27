@@ -149,8 +149,43 @@
 
    @media (min-width:350px) and (max-width:992px) {
       .clip{
-        width: 350px;
+        width: 316px;
+        margin-left: 3%;
       }
+      .form-group input{
+        height: 100%;
+        width: 70%;
+        position: absolute;
+        border-radius: 5px;
+        padding: 0 20px;
+        font-size: 17px;
+        font-weight: 500;
+        outline: none;
+        border: 1px solid black;
+    }
+    .form-group label{
+        position: absolute;
+        pointer-events: none;/*what is pointer event*/
+        top: 50%;
+        left: 80px;
+        transform: translateY(-50%);
+        background: #fff;
+        transition: all 0.3s ease;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 3px;
+        color: #999;
+    }
+    #one:checked ~ .container .panel{
+        left: -370px;
+    }
+    #two:checked ~ .container .panel{
+        left: -880px;
+    }
+    #three:checked ~ .container .panel{
+        left: -1190px;
+    }
+      
    }
 
     

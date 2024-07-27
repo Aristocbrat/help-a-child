@@ -8,31 +8,31 @@ const Donations = () => {
       <input type="checkbox" id="one" className='hidden' />
       <input type="checkbox" id="two" className='hidden' />
       <input type="checkbox" id="three" className='hidden' />
-      <div className="container w-[50%] h-[90%] relative rounded-[6px] bg-[black] overflow-hidden shadow-sm">
+      <div className="container xl:w-[50%] sm:w-[90%] h-[90%] relative rounded-[6px] bg-[black] overflow-hidden shadow-sm">
         <h1 className='absolute text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold p-[20px] mt-3 text-center w-[100%]'>Sign Up</h1>
         <div className="indicator flex items-center align-middle top-[20%] text-2xl md:2xl lg:2xl xl:text-2xl justify-center absolute w-[100%] h-[50px] ">
           <div className="step  step1">
             <div>1</div>
-            <span>Basic</span>
+            <span className='text-[12px] xl:text-lg'>Basic</span>
           </div>
           <div className="line line1"></div>
           <div className="step step2">
             <div>2</div>
-            <span>Contact</span>
+            <span className='text-[12px] xl:text-lg'>Contact</span>
           </div>
           <div className="line line2"></div>
           <div className="step step3">
             <div>3</div>
-            <span>Personal</span>
+            <span className='text-[12px] xl:text-lg'>Personal</span>
           </div>
           <div className="line line3"></div>
           <div className="step step4">
             <div>4</div>
-            <span>Login</span>
+            <span className='text-[12px] xl:text-lg'>Login</span>
           </div>
         </div>
         <div className="panel relative w-[100%] h-[100%] top-0 left-0 transition-all duration-400 ease">
-          <div className="page1 absolute w-[500px] h-[100%] left-[13%] ">
+          <div className="page1 absolute w-[500px] h-[100%] xl:left-[13%] sm:left-[-20%] ">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Basic information</h2>
               <div className="form-group">
@@ -48,7 +48,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page2 absolute w-[500px] h-[100%] left-[120%]">
+          <div className="page2 absolute w-[500px] h-[100%] xl:left-[120%] sm:left-[84%]">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Contact information</h2>
               <div className="form-group">
@@ -65,14 +65,14 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page3 absolute w-[200px] h-[100%] left-[243%] ">
+          <div className="page3 absolute w-[200px] h-[100%] xl:left-[243%] sm:left-[244%] ">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[200%] h-[100%] top-[90px]">
               <h2 className='text-lg md:text-2xl lg:text-3xl xl:text-3xl'>Personal information</h2>
               <div className="form-group">
                 <input type="number" required className='text-black'/>
                 <label>NIN</label>
               </div>
-              <div className="form-group">
+              <div className="form-group"> 
                 <input type="text" required className='text-black' />
                 <label>Gender</label>
               </div>
@@ -82,7 +82,7 @@ const Donations = () => {
               </div>
             </form>
           </div>
-          <div className="page4 absolute w-[400px] h-[100%] left-[360%]">
+          <div className="page4 absolute w-[400px] h-[100%] xl:left-[360%] sm:left-[334%]">
             <form action="#" className="form absolute items-center justify-center flex flex-col w-[100%] h-[100%] top-[90px]">
               <h2>Login Details</h2>
               <div className="form-group">

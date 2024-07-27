@@ -7,8 +7,8 @@ const Wth = () => {
 
 
   return (
-    <div className="w-full h-full flex flex-wrap px-7 py-4 font-bold " data-aos="fade-down-right">
-      <h1 className="xl:text-4xl sm:text-lg font-bold">There are several ways to help us:</h1>
+    <div className="w-full h-full flex flex-wrap xl:px-7 sm:px-2 py-4 font-bold " data-aos="fade-down-right">
+      <h1 className="xl:text-4xl sm:text-lg xl:font-bold">There are several ways to help us:</h1>
       <div className="wthcon">
         <p className="py-2 text">-Donate Funds: <span>Financial contributions can assist with daily expenses, 
         educational needs, and healthcare services for the children</span>.</p>

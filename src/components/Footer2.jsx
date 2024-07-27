@@ -31,7 +31,7 @@ const Footer2 = () => {
   return (
     <div>
          <div className='footer2 py-2 relative bottom-0 w-full flex items-center flex-col '>
-      <div className="footer-wrapper flex flex-col max-w-[90%] w-full p-4 ">
+      <div className="footer-wrapper flex flex-col max-w-[100%] w-full xl:p-4 sm:px-3 xl:ml-6 ">
         <section className="footertop flex flex-wrap items-start py-4 px-0 justify-between">
           <div className="footerheadline flex flex-col justify-center text-white w-[90%] rounded px-4 py-4 ">
             <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
@@ -91,7 +91,7 @@ const Footer2 = () => {
                     <i className="ri-linkedin-fill text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-5xl"></i>
                   </a>
                 </li>
-                <li><p className='font-bold pt-3 sm:ml-[-1%] xl:mt-0 sm:mt-[9%] px-4'>You can follow us on our socials <i class="ri-thumb-up-line "></i></p></li>
+                <li><p className='font-bold pt-3 sm:ml-[-1%] xl:mt-0 sm:mt-[-3%] px-4'>You can follow us on our socials <i class="ri-thumb-up-line "></i></p></li>
                 <li><p className='xl:px-5 xl:ml-0 sm:ml-[18%]  w-[200px]'>
                   <label className="relative text-[#fc7c9e] xl:flex cursor-pointer items-center justify-center gap-[1em]"for="heart">
   <input class="peer appearance-none" id="heart" name="heart" type="checkbox" />
@@ -120,7 +120,7 @@ const Footer2 = () => {
             </div>
 
             {/* ---------------------------------------------------------------------------- */}
-            <div className="address  font-bold " >
+            <div className="address  font-bold px-5 " >
               <p>
                 <span className='font-bold text-2xl'>Contact Us</span>
                 <p data-aos="fade-down-right">No 7 Victory Avenue Olosun Ota, Ogun State</p>
@@ -131,19 +131,19 @@ const Footer2 = () => {
            
             <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6">
                 <section className='xl:border-r-4  border-black'>
-                  <h2 className='text-2xl font-bold'>Success stories</h2>
+                  <h2 className='xl:text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
                 <section className='xl:border-r-4 border-black'>
-                  <h2 className='text-2xl font-bold'>Get Involved</h2>
+                  <h2 className='xl:text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
                 <section className='xl:border-r-4  border-black'> 
-                  <h2 className='text-2xl font-bold'>Legal</h2>
+                  <h2 className='xl:text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>
                 <section >
-                  <h2 className='text-2xl font-bold'>Our Mission</h2>
+                  <h2 className='xl:text-2xl font-bold'>Our Mission</h2>
                   <p>Providing a safe, nurturing environment where every child can grow, learn, and thrive</p>
                 </section>
 
