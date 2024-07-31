@@ -146,6 +146,10 @@
     width: 500px;
     height: 800px;
    }
+
+   .dropdown li{
+    font-weight: 700;
+   }
    
  .dropdown li:before{
     content: "";

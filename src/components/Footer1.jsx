@@ -1,5 +1,7 @@
 import React from 'react'
 import myface from "./../assets/images/myface.jpg"
+import sis from "./../assets/images/sis.jpeg"
+import kay from "./../assets/images/kay.jpeg"
 
 const Footer1 = () => {
   return (
@@ -38,12 +40,12 @@ const Footer1 = () => {
   </div>
 </div>
 </div>
-<div class=" rounded-2xl shadow-sm shadow-sky-500">
+<div class=" rounded-2xl shadow-sm shadow-sky-500 ">
 <div class="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
   <div class="z-10 flex flex-col items-center gap-2">
-    <img src={myface} alt="" className='w-[100px] rounded-full' />
-    <span class="text-slate-400 text-2xl font-bold">Aristobrat</span>
+    <img src={kay} alt="" className='w-[100px] h-[130px] rounded-full' />
+    <span class="text-slate-400 text-2xl font-bold">Joseph</span>
     <p class="text-slate-500 font-bold">Co-Founder of Cwoalg</p>
   </div>
 </div>
@@ -52,8 +54,8 @@ const Footer1 = () => {
 <div class="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
   <div class="z-10 flex flex-col items-center gap-2">
-    <img src={myface} alt="" className='w-[100px] rounded-full' />
-    <span class="text-slate-400 text-2xl font-bold">Aristobrat</span>
+    <img src={sis} alt="" className='w-[100px] h-[130px] rounded-full' />
+    <span class="text-slate-400 text-2xl font-bold">Dorcas</span>
     <p class="text-slate-500 font-bold">Co-Founder of Cwoalg</p>
   </div>
 </div>
@@ -65,7 +67,7 @@ const Footer1 = () => {
       <h1 className='font-bold text-2xl py-4 flex justify-center'>To Locate our offices closer to you. </h1>
       <div className="dropdowns flex justify-evenly">
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer'>Lagos State<i className="ri-arrow-down-double-line"></i></h1>
+      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Lagos State<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0   bg-black text-white  px-2 py-2'><a href="">Ikeja</a></li>
         <hr className='opacity-0 hover:opacity-10' />
@@ -75,8 +77,8 @@ const Footer1 = () => {
       </ul>
       </div>
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer'>Ogun State<i className="ri-arrow-down-double-line"></i></h1>
-      <ul className='ps-2 py-2'>
+      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Ogun State<i className="ri-arrow-down-double-line"></i></h1>
+      <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0 bg-black text-white  px-2 py-2' ><a href="">Olosun ota</a></li>
         <hr  className='opacity-0 hover:opacity-10'/>
         <li className=' duration-1500 opacity-0  bg-black text-white  px-2 py-2'><a href="">Sango ota</a></li>
@@ -85,7 +87,7 @@ const Footer1 = () => {
       </ul>
       </div>
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer'>Abuja<i className="ri-arrow-down-double-line"></i></h1>
+      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Abuja<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0   bg-black text-white  px-2 py-2'><a href="">Gwarinpa</a></li>
         <hr className='opacity-0 hover:opacity-10'/>
