@@ -30,7 +30,7 @@ const Footer2 = () => {
       }, []);
   return (
     <div>
-         <div className='footer2 py-2 relative bottom-0 w-[99%] xl:px-3 flex items-center flex-col bg-blue-600'>
+         <div className='footer2 py-2 relative bottom-0 w-[99%] xl:px-3 flex items-center flex-col '>
       <div className="footer-wrapper flex flex-col max-w-[100%] w-full xl:p-4 sm:px-3 xl:ml-6 ">
         <section className="footertop flex flex-wrap items-start py-4 px-0 justify-between">
           <div className="footerheadline flex flex-col justify-center text-white w-[90%] rounded px-4 py-4 ">
