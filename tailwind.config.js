@@ -71,8 +71,19 @@ export default {
         '192': '78rem',
          
       },
+      transitionProperty:{
+         'bg-color-transform': 'background-color, transform',
+      },
+      transitionDelay:{
+        '600': '600ms',
+        '400': '400ms',
+      }
+      
     },
   },
+ 
+  
+  
   plugins: [require('tailwind-clip-path')],
 }
 

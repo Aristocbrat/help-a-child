@@ -146,6 +146,29 @@
     width: 500px;
     height: 800px;
    }
+   
+ .dropdown li:before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    background-color: #0a3656;
+ }
+
+  .dropdown ul li:nth-child(1){
+     transition-delay: 0.2s , 0s;
+  }
+  .dropdown ul li:nth-child(2){
+    transition-delay: 0.3s , 0s;
+ }
+ .dropdown ul li:nth-child(3){
+    transition-delay: 0.5s , 0s;
+ }
+ .dropdown:hover li{
+    opacity: 1;
+ }
+
+
 
    @media (min-width:350px) and (max-width:992px) {
       .clip{

@@ -8,9 +8,9 @@ const Faq = () => {
         time();
       }, []);
   return (
-    <div className='py-4  bg-red-600'>
-        <h1 className='xl:text-4xl sm:text-2xl font-bold flex  items-center justify-center py-2 bg-yellow-500'> <i className="ri-vip-crown-line"></i> General Information</h1>
-      <div className="qandanswers flex flex-wrap sm:flex-col xl:flex-row xl:px-4 sm:px-7 mx-auto gap-4 w-full justify-between text-white bg-green-500">
+    <div className='py-4'>
+        <h1 className='xl:text-4xl sm:text-2xl font-bold flex  items-center justify-center py-2 '> <i className="ri-vip-crown-line"></i> General Information</h1>
+      <div className="qandanswers flex flex-wrap sm:flex-col xl:flex-row xl:px-4 sm:px-7 mx-auto gap-4 w-full justify-between text-white ">
         
           <div className="card1 bg-[#011627] xl:w-[420px] sm:w-[330px] h-[250px] rounded-[10px] " data-aos="slide-right" data-aos-duration='1500'>
             <p className='px-4 xl:text-3xl sm:text-lg py-3 '>Q: What is CwoalG?</p>
@@ -64,7 +64,7 @@ const Faq = () => {
           </div>
           
       </div>
-      <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 xl:px-7 sm:px-6 bg-blue-500">
+      <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 xl:px-7 sm:px-6 ">
                 <section className='xl:border-r-4  border-black'>
                   <h2 className='xl:text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
@@ -83,7 +83,7 @@ const Faq = () => {
                 </section>
 
             </div>
-            <small className='gtext flex justify-center pt-9 text-base md:text-lg lg:text-xl xl:text-2xl mt-[90px] bg-purple-800'>
+            <small className='gtext flex justify-center pt-9 text-base md:text-lg lg:text-xl xl:text-2xl mt-[90px]'>
               <i className="ri-copyright-line"></i> CwoalG 
               <span id='year'> </span>
               <span className='ps-3'> All rights reserved</span>
