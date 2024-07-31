@@ -6,7 +6,7 @@ import kay from "./../assets/images/kay.jpeg"
 const Footer1 = () => {
   return (
     <div className='px-3'>
-       <div className='footer w-full h-full bg-black text-white rounded-[9px] xl:p-4 mt-20'>
+       <div className='footer w-full h-full bg-black text-white rounded-[9px] xl:p-2 mt-20'>
       <div className='text-center'>
         <p className=' sm:text-[12px] md:text-2xl lg:text-3xl xl:text-lg py-10 px-3'>
           "The orphanage provides a safe haven for children who have experienced trauma or abuse,
@@ -29,7 +29,7 @@ const Footer1 = () => {
         </p>
       </div>
     </div>
-    <div className="someanime py-3 flex justify-evenly w-[93%]">
+    <div className="someanime py-3 flex justify-evenly w-[93%] ">
     <div class=" rounded-2xl shadow-sm shadow-sky-500">
 <div class="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
