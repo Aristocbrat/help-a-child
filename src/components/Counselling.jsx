@@ -56,7 +56,7 @@ const Counselling = () => {
       <h1 className='uppercase  text-3xl py-3 seperation flex justify-center'>Meet Our Counselors</h1>
       <p className='px-5'>Our team of dedicated and compassionate counselors is here to help. 
         All our counselors are licensed professionals with experience in child psychology and trauma-informed care. 
-        <a href="" className='font-bold hover:underline'>Meet Our Team</a> to learn more about their backgrounds and specialties.</p>
+        <a href="/Meetus" className='font-bold hover:underline'>Meet Our Team</a> to learn more about their backgrounds and specialties.</p>
       </div>
       <section className='bg-black xl:rounded-l-[50%] xl:w-[45%] h-[600px] text-white xl:absolute xl:right-4 xl:mt-[-65%] '>
       <h1 className='uppercase  text-lg font-bold py-6  flex justify-center xl:ml-[15%] xl:px-8 mt-6 '> How to Access Counseling Services</h1>

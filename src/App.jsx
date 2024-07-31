@@ -13,6 +13,7 @@ import Adoption from './components/Adoption'
 import Awareness from './components/Awareness'
 import Counselling from './components/Counselling'
 import Readmore from './components/Readmore'
+import Meetus from './components/Meetus'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
     <Route path='/Awareness' element={<Awareness/>}/>
     <Route path='/Counselling' element={<Counselling/>}/>
     <Route path='/Readmore' element={<Readmore/>}/>
+    <Route path='/Meetus' element={<Meetus/>}/>
    </Routes>
    </>
   )
