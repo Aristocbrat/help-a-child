@@ -5,6 +5,7 @@ import reno  from "./../assets/images/renovation.jpg"
 import building from "./../assets/images/building.jpg"
 import toy from "./../assets/images/Toy.jpg"
 import heart from "./../assets/images/heart.jpg"
+import rice from './../assets/images/rice.jpg'
 
 
 
@@ -111,6 +112,27 @@ const Donation2 = () => {
                     <div className="text">
                     <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>Heart donations</h2>
                     <p className='text-[13px] md:text-2xl lg:text-lg xl:text-lg py-3'>Join us in donating for one of the major project , help a child with a heart condition today .</p>
+                    <form action="#">
+                        <div className="formg flex flex-col gap-2">
+                            <input type="text" name="" required className='p-3 rounded-[20px] bg-black text-white w-[240px]'/>
+                            <label htmlFor=""className='' >Username</label>
+                            <input type="number" name="" required className='p-3 rounded-[20px] bg-black text-white w-[240px]'/>
+                            <label htmlFor="Amount" className=''>Amount</label>
+                        </div>
+                    </form>
+                    <div className=" flex">
+                    <i className="ri-mastercard-fill text-5xl pe-4"></i>
+                        <i className="ri-visa-fill text-5xl pe-4"></i>
+                        <button type="submit" className=' tky bg-[#101113]  text-white text-lg   border-neutral-50 h-[40px] p-1 top-[-5px] rounded-[9px] font-bold  hover:bg-green-500'>Donate</button>
+                        </div>
+                    </div>
+                </div>
+                <hr  className='border-black p-3'/>
+                <div className="heart xl:w-[65%] sm:w-[90%] flex xl:flex-row sm:flex-col gap-4 mt-[20px] ">
+                    <img src={rice} alt="" className='rounded-[7px] xl:w-[50%] sm:w-[90%] h-[10%]'/>
+                    <div className="text">
+                    <h2 className='hover:underline text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold'>Food Donations</h2>
+                    <p className='text-[13px] md:text-2xl lg:text-lg xl:text-lg py-3'>Join us by donating food stuffs to our various orphanages, Help a child today.</p>
                     <form action="#">
                         <div className="formg flex flex-col gap-2">
                             <input type="text" name="" required className='p-3 rounded-[20px] bg-black text-white w-[240px]'/>

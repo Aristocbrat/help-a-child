@@ -12,7 +12,7 @@ const Footer1 = () => {
           "The orphanage provides a safe haven for children who have experienced trauma or abuse,
           ensuring they have access to care and resources necessary for their well-being and development"
         </p>
-        <p className='hearts text-red-600 flex justify-center text-[14px] md:text-3xl lg:text-3xl xl:text-lg  animate-pulse py-4'>
+        <p className='hearts text-red-600 flex justify-center text-[14px] md:text-3xl lg:text-3xl xl:text-lg  animate-pulse duration-700 py-4'>
           <span className='px-2'>Your donation can also support the Heartbeat Program, helping children with heart conditions </span>
           <i className="ri-heart-3-fill"></i>
           <i className="ri-empathize-fill"></i>
@@ -29,7 +29,7 @@ const Footer1 = () => {
         </p>
       </div>
     </div>
-    <div className="someanime py-3 flex justify-evenly w-[93%] ">
+    <div className="someanime py-3 flex xl:flex-row sm:flex-col sm:m-auto justify-evenly w-[93%]  sm:px-4">
     <div class=" rounded-2xl shadow-sm shadow-sky-500">
 <div class="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
@@ -64,8 +64,8 @@ const Footer1 = () => {
 
     </div>
     <div className="locations w-[70%] mx-auto">
-      <h1 className='font-bold text-2xl py-4 flex justify-center'>To Locate our offices closer to you. </h1>
-      <div className="dropdowns flex justify-evenly">
+      <h1 className='font-bold xl:text-2xl py-4 flex justify-center'>To Locate our offices closer to you. </h1>
+      <div className="dropdowns flex xl:justify-evenly justify-between">
       <div className="dropdown">
       <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Lagos State<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>

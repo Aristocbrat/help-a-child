@@ -14,12 +14,16 @@ import team9 from "./../assets/images/couns.jpg"
 import teama from "./../assets/images/doc.jpg"
 import teamb from "./../assets/images/tech1.jpg"
 import teamc from "./../assets/images/teach2.jpg"
+import Footer2 from './Footer2'
 
 const Meetus = () => {
     
   return (
-    <div className='w-full px-4 bg-[#011627]'>
-        <h1 className='font-bold seperation text-4xl flex justify-center py-3'>Meet our Team. Meet our Family </h1>
+    <div className="div">
+
+    
+    <div className='w-full px-4 bg-[#011627] py-3'>
+        <h1 className='font-bold seperation xl:text-4xl md:text-2xl lg:text-3xl text-xl flex justify-center py-3'>Meet our Team. Meet our Family </h1>
         <hr className='border-4 border-black' />
        
         <div className="mfounders flex flex-wrap justify-between px-4 py-2 bg-[#011627]  ">
@@ -81,7 +85,7 @@ const Meetus = () => {
   <div class="z-10 flex flex-col items-center gap-2">
     <img src={team1} alt="" className='w-[100px] h-[100px] object-cover rounded-full' />
     <span className="text-slate-400 text-2xl font-bold">Eunice</span>
-    <p className="text-slate-500 font-bold">Secretary of CwoalG</p>
+    <p className="text-slate-500 font-bold">Secretary</p>
     <div className="socials text-slate-500 flex gap-4">
     <a href=""><i className="ri-facebook-fill"></i></a>
     <a href=""><i className="ri-instagram-fill"></i></a>
@@ -97,7 +101,7 @@ const Meetus = () => {
   <div class="z-10 flex flex-col items-center gap-2">
     <img src={team2} alt="" className='w-[100px] h-[100px] rounded-full object-cover' />
     <span class="text-slate-400 text-2xl font-bold">Adams</span>
-    <p class="text-slate-500 font-bold">Accountant of CwoalG</p>
+    <p class="text-slate-500 font-bold">Accountant</p>
     <div className="socials text-slate-500 flex gap-4">
     <a href=""><i className="ri-facebook-fill"></i></a>
     <a href=""><i className="ri-instagram-fill"></i></a>
@@ -113,7 +117,7 @@ const Meetus = () => {
   <div class="z-10 flex flex-col items-center gap-2">
     <img src={team3} alt="" className='w-[100px] h-[100px] rounded-full object-cover' />
     <span class="text-slate-400 text-2xl font-bold">Khalid</span>
-    <p class="text-slate-500 font-bold">Manager of CwoalG</p>
+    <p class="text-slate-500 font-bold">Manager</p>
     <div className="socials text-slate-500 flex gap-4">
     <a href=""><i className="ri-facebook-fill"></i></a>
     <a href=""><i className="ri-instagram-fill"></i></a>
@@ -275,6 +279,8 @@ const Meetus = () => {
 </div>
 </div>
  </div>
+    </div>
+    <Footer2/>
     </div>
   )
 }
