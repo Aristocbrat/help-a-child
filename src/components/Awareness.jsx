@@ -15,9 +15,9 @@ const Awareness = () => {
             <h1 className='xl:text-4xl font-bold flex  justify-center py-3 '>Raise Awareness</h1>
             <h2 className='xl:text-3xl font-semibold flex justify-center py-4'>The Plight of Orphaned Children</h2>
             <div className="protest w-full flex flex-col py-3 px-5 gap-5">
-            <hr className='p-4 text-black' />
+            <hr className='xl:p-4 text-black' />
                 <img src={walk2} alt="" className='w-[500px] '/>
-                <span className='absolute xl:ml-[40%] xl:w-[500px] font-semibold xl:mt-12 sm:mt-[77%] text-[13px] xl:text-lg px-4'>Every child deserves a safe and loving home. Unfortunately,
+                <span className='absolute xl:ml-[40%] xl:w-[500px] font-semibold xl:mt-12 sm:mt-[70%] text-[13px] xl:text-lg px-4'>Every child deserves a safe and loving home. Unfortunately,
                      millions of children around the world are orphaned, abandoned, 
                     or separated from their families. These children face significant challenges, including: <br/>
                     Lack of Basic Needs: Many orphaned children struggle 
@@ -28,7 +28,7 @@ const Awareness = () => {
                     </span>
 
 
-                <hr className='p-4 text-black mt-[80%] xl:mt-0' />
+                <hr className='p-4 text-black mt-[90%] xl:mt-0' />
                 <img src={guest3} alt="" className='w-[500px] xl:ml-[50%] mt-[2%]'/>
                 <span className='absolute xl:w-[500px] font-semibold xl:mt-[36%] sm:mt-[235%] xl:ml-5 text-[13px] xl:text-lg px-4'>
                 Health Risks: Orphaned children often lack access to proper medical care and are at higher
@@ -40,10 +40,10 @@ const Awareness = () => {
                  Provide Comprehensive Care: Ensure that every child has access to food, shelter, education, and medical care.<br/>
                  Create a Loving Environment: Foster a sense of family and belonging for all children in our care.
                 </span>
-                <hr className='p-4 font-bold text-black mt-[90%] xl:mt-0' />
+                <hr className='p-4 font-bold text-black mt-[99%] xl:mt-0' />
 
                 <img src={walk3} alt="" className='w-[500px] ' />
-                <span className='absolute xl:w-[500px] font-semibold xl:mt-[62%] sm:mt-[380%] xl:ml-[43%] text-[13px] xl:text-lg px-4 py-0 xl:py-5'>
+                <span className='absolute xl:w-[500px] font-semibold xl:mt-[62%] sm:mt-[384%] xl:ml-[43%] text-[13px] xl:text-lg px-4 py-0 xl:py-5'>
                 Success Stories<br/>
                 Here are a few stories of how your support has made a difference:<br/>
                 Maria's Journey:<br/>
@@ -54,7 +54,7 @@ const Awareness = () => {
                Aisha was abandoned at birth but found a new family through our adoption program. 
                She is now part of a loving home where she is cherished and cared for.
                 </span>
-                <hr className='p-4 font-bold text-black mt-[90%] xl:mt-0' /> 
+                <hr className='p-4 font-bold text-black mt-[95%] xl:mt-0' /> 
 
             </div>
         </div>

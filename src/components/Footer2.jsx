@@ -69,29 +69,29 @@ const Footer2 = () => {
           </section>
           <hr className='p-4 border-black'/>
           <div className="footerBottom gtext">
-            <div className="socials xl:py-7 xl:w-full" data-aos="fade-up">
-              <ul className='flex flex-wrap xl:justify-between sm:justify-evenly text-base md:text-lg lg:text-xl xl:text-2xl xl:gap-3 sm:gap-1'>
+            <div className="socials xl:py-7 xl:w-full " data-aos="fade-up">
+              <ul className='flex flex-wrap xl:justify-between sm:justify-evenly text-base md:text-lg lg:text-xl xl:text-2xl xl:gap-3 sm:gap-1  '>
                 <li>
                   <a href="" title='Instagram'>
-                    <i className="ri-instagram-fill text-purple-950 text-xl md:text-2xl lg:text-3xl xl:text-5xl"></i>
+                    <i className="ri-instagram-fill text-purple-950 text-xl md:text-2xl lg:text-3xl xl:text-5xl hover:scale-105  transition-transform duration-500"></i>
                   </a>
                 </li>
                 <li>
                   <a href="" title='X'>
-                    <i className="ri-twitter-x-line text-black text-xl md:text-2xl lg:text-3xl xl:text-5xl"></i>
+                    <i className="ri-twitter-x-line text-black text-xl md:text-2xl lg:text-3xl xl:text-5xl hover:scale-105 transition-transform duration-500"></i>
                   </a>
                 </li>
                 <li>
                   <a href="" title='Facebook' >
-                    <i className="ri-facebook-fill text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-5xl"></i>
+                    <i className="ri-facebook-fill text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-5xl hover:-scale-y-100 transition-transform duration-500"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="" title='Facebook'>
-                    <i className="ri-linkedin-fill text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-5xl"></i>
+                  <a href="" title='Linkedin'>
+                    <i className="ri-linkedin-fill text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-5xl hover:scale-105 transition-transform duration-500"></i>
                   </a>
                 </li>
-                <li><p className='font-bold pt-3 sm:ml-[-1%] xl:mt-0 sm:mt-[-3%] px-4'>You can follow us on our socials <i class="ri-thumb-up-line "></i></p></li>
+                <li><p className='font-bold pt-3 sm:ml-[-1%] xl:mt-0 sm:mt-[-3%] px-4'>You can follow us on our socials <i className="ri-thumb-up-fill hover:text-blue-600  "></i></p></li>
                 <li><p className='xl:px-5 xl:ml-0 sm:ml-[18%]  w-[300px]'>
                   <label className="relative text-[#fc7c9e] xl:flex cursor-pointer items-center justify-center gap-[1em]"for="heart">
   <input class="peer appearance-none" id="heart" name="heart" type="checkbox" />
