@@ -29,7 +29,7 @@ const Footer1 = () => {
         </p>
       </div>
     </div>
-    <div className="someanime py-3 flex xl:flex-row sm:flex-col sm:m-auto justify-evenly w-[93%]  sm:px-4">
+    <div className="someanime py-3 flex xl:flex-row md:flex-row  sm:flex-col sm:m-auto flex-wrap justify-evenly w-[93%] gap-3 ">
     <div class=" rounded-2xl shadow-sm shadow-sky-500">
 <div class="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
@@ -67,7 +67,7 @@ const Footer1 = () => {
       <h1 className='font-bold xl:text-2xl py-4 flex justify-center'>To Locate our offices closer to you. </h1>
       <div className="dropdowns flex xl:justify-evenly justify-between">
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Lagos State<i className="ri-arrow-down-double-line"></i></h1>
+      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Lagos<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0   bg-black text-white  px-2 py-2'><a href="">Ikeja</a></li>
         <hr className='opacity-0 hover:opacity-10' />
@@ -77,7 +77,7 @@ const Footer1 = () => {
       </ul>
       </div>
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Ogun State<i className="ri-arrow-down-double-line"></i></h1>
+      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Ogun<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0 bg-black text-white  px-2 py-2' ><a href="">Olosun ota</a></li>
         <hr  className='opacity-0 hover:opacity-10'/>

@@ -223,6 +223,42 @@
         left: 342% !important;
      }
    }
-
+   @media (min-width: 720px) and (max-width:1030px) {
+      
+    .page1{
+        left: 9% !important;
+      }
+     .page2{
+        left: 108% !important;
+     } 
+      .page3{
+        left: 200% !important;
+      }
+     .page4{
+        left: 280% !important;
+     }
+     #one:checked ~ .container .panel{
+        left: -570px;
+    }
+    #two:checked ~ .container .panel{
+        left: -1065px;
+    }
+    #three:checked ~ .container .panel{
+        left: -1495px;
+    }
+    .guestspeakers img, .raise img{
+        width: 100% !important;
+    }
+    .raise{
+        font-size: 30px !important;
+    }
+  }
+  @media (max-width:1024px) {
+     .mfounders{
+         justify-content: space-evenly !important;
+         padding: 5px 10px;
+     }
+     
+  }
     
    

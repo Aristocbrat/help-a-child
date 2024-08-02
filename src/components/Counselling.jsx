@@ -7,11 +7,11 @@ const Counselling = () => {
       <div className="couns px-4">
         <h1 className='uppercase font-semibold xl:text-3xl py-2 seperation flex justify-center'>Counseling Services</h1>
         <h2 className='text-2xl font-semibold py-3 '>Emotional Support for Our Children</h2>
-        <p className='w-[70%] font-semibold'>At CwoalG, we understand that emotional well-being is as crucial as physical health.
+        <p className='xl:w-[70%] font-semibold'>At CwoalG, we understand that emotional well-being is as crucial as physical health.
              Many of our children have experienced significant trauma and loss. 
             Our counseling services are designed to provide the support they need to heal and thrive.</p>
       </div>
-      <section className='w-[70%]'>
+      <section className='xl:w-[70%]'>
         <h1 className='uppercase font-semibold xl:text-3xl py-3 seperation flex px-5'>Why Counseling Matters</h1>
         <p className='font-semibold px-5 text-2xl'>Children who have been orphaned or abandoned often face:</p>
         <ul className='font-semibold px-5'> 
@@ -53,7 +53,7 @@ const Counselling = () => {
       </div>
       </div>
       <div className="meet w-[90%] font-semibold">
-      <h1 className='uppercase  text-3xl py-3 seperation flex justify-center'>Meet Our Counselors</h1>
+      <h1 className='uppercase  xl:text-3xl py-3 seperation flex justify-center'>Meet Our Counselors</h1>
       <p className='px-5'>Our team of dedicated and compassionate counselors is here to help. 
         All our counselors are licensed professionals with experience in child psychology and trauma-informed care. 
         <a href="/Meetus" className='font-bold hover:underline'>Meet Our Team</a> to learn more about their backgrounds and specialties.</p>

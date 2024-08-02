@@ -33,7 +33,7 @@ const Footer2 = () => {
          <div className='footer2 py-2 relative bottom-0 w-[99%] xl:px-3 flex items-center flex-col '>
       <div className="footer-wrapper flex flex-col max-w-[100%] w-full xl:p-4 sm:px-3 xl:ml-6 ">
         <section className="footertop flex flex-wrap items-start py-4 px-0 justify-between">
-          <div className="footerheadline flex flex-col justify-center text-white w-[90%] rounded px-4 py-4 ">
+          <div className="footerheadline flex flex-col justify-center text-white xl:w-[97%] sm:w-[100%] rounded px-4 py-4 ">
             <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
             <div className='flex xl:flex-row sm:flex-col'>
                 <img src={imgw} alt="" className='xl:w-[40%] rounded-[20px]'/>
@@ -52,7 +52,7 @@ const Footer2 = () => {
             
           </div>
         </section>
-        <div className="footerColumns w-[90%]">
+        <div className="footerColumns xl:w-[97%] sm:w-[100%]  flex flex-col flex-wrap overflow-hidden">
           <section className='logo flex justify-center w-[full] py-9'>
             <h2 className='gtext text-2xl md:text-3xl lg:text-4xl xl:text-5xl w-full md:w-[550px] ms-[27%] seperation font-bold'>
               <i className="ri-vip-crown-line"></i> CwoalG

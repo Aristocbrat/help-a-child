@@ -23,10 +23,10 @@ const Meetus = () => {
 
     
     <div className='w-full px-4 bg-[#011627] py-3'>
-        <h1 className='font-bold seperation xl:text-4xl md:text-2xl lg:text-3xl text-xl flex justify-center py-3'>Meet our Team. Meet our Family </h1>
+        <h1 className='font-bold text-white xl:text-4xl md:text-2xl lg:text-3xl text-xl flex justify-center py-3'>Meet our Team. Meet our Family </h1>
         <hr className='border-4 border-black' />
        
-        <div className="mfounders flex flex-wrap justify-between px-4 py-2 bg-[#011627]  ">
+        <div className="mfounders flex flex-wrap justify-between w-full   px-4 py-2 bg-[#011627]  ">
         <div className=" rounded-2xl shadow-sm shadow-sky-500">
         <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
@@ -75,10 +75,8 @@ const Meetus = () => {
   </div>
 </div>
 </div>
-            
-            
-        </div>
-        <div className="mfounders flex flex-wrap justify-between px-4 py-2 bg-[#011627]  ">
+{/* </div>
+        <div className="mfounders flex flex-wrap xl:justify-between xl:px-4 py-2 bg-[#011627]  "> */}
         <div className=" rounded-2xl shadow-sm shadow-sky-500">
         <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
@@ -127,9 +125,7 @@ const Meetus = () => {
   </div>
 </div>
 </div>
- </div>
- {/* -------------------------------------------------------------------------------- */}
-        <div className="mfounders flex flex-wrap justify-between px-4 py-2 bg-[#011627]  ">
+ 
         <div className=" rounded-2xl shadow-sm shadow-sky-500">
         <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
@@ -178,8 +174,8 @@ const Meetus = () => {
   </div>
 </div>
 </div>
- </div>
- <div className="mfounders flex flex-wrap justify-between px-4 py-2 bg-[#011627]  ">
+ {/* </div>
+ <div className="mfounders flex flex-wrap xl:justify-between xl:px-4 py-2 bg-[#011627]  "> */}
         <div className=" rounded-2xl shadow-sm shadow-sky-500">
         <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
@@ -228,8 +224,8 @@ const Meetus = () => {
   </div>
 </div>
 </div>
- </div>
- <div className="mfounders flex flex-wrap justify-between px-4 py-2 bg-[#011627]  ">
+ {/* </div>
+ <div className="mfounders flex flex-wrap xl:justify-between xl:px-4 py-2 bg-[#011627]  "> */}
         <div className=" rounded-2xl shadow-sm shadow-sky-500">
         <div className="group overflow-hidden relative after:duration-500 before:duration-500  duration-500 hover:after:duration-500 hover:after:translate-x-24 hover:before:translate-y-4 hover:before:-translate-x-32 hover:duration-500 after:absolute  after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16 after:w-12 after:h-12  before:absolute before:w-20 before:h-20
  before:bg-sky-400 before:rounded-full  before:blur-xl before:top-20 before:right-16 hover:rotate-6 flex justify-center items-center h-56 w-80 origin-bottom-right bg-neutral-900 rounded-2xl outline outline-slate-400 -outline-offset-8">
