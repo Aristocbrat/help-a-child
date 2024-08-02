@@ -8,15 +8,13 @@ import heart from "./../assets/images/heart.jpg"
 import rice from './../assets/images/rice.jpg'
 
 
-
-
 const Donation2 = () => {
     useEffect(()=>{
         alert("Beware of Scammers!!")
     })
     
   return (
-    <div className=' w-[100%] h-[100%] px-3'>
+    <div className=' w-[100%] h-[100%] xl:px-3'>
         <div>
         <hr  className='border-black p-3'/>
             <div className="projects px-4">

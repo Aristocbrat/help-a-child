@@ -30,7 +30,7 @@ const Awareness = () => {
 
                 <hr className='p-4 text-black mt-[80%] xl:mt-0' />
                 <img src={guest3} alt="" className='w-[500px] xl:ml-[50%] mt-[2%]'/>
-                <span className='absolute xl:w-[500px] font-semibold xl:mt-[36%] sm:mt-[238%] xl:ml-5 text-[13px] xl:text-lg px-4'>
+                <span className='absolute xl:w-[500px] font-semibold xl:mt-[36%] sm:mt-[235%] xl:ml-5 text-[13px] xl:text-lg px-4'>
                 Health Risks: Orphaned children often lack access to proper medical care and are at higher
                  risk for health issues. <br/>
                  Emotional Trauma: The loss of parents and family can lead to severe emotional and psychological trauma.<br/>
@@ -43,7 +43,7 @@ const Awareness = () => {
                 <hr className='p-4 font-bold text-black mt-[90%] xl:mt-0' />
 
                 <img src={walk3} alt="" className='w-[500px] ' />
-                <span className='absolute xl:w-[500px] font-semibold xl:mt-[62%] sm:mt-[390%] xl:ml-[43%] text-[13px] xl:text-lg px-4 py-0 xl:py-5'>
+                <span className='absolute xl:w-[500px] font-semibold xl:mt-[62%] sm:mt-[380%] xl:ml-[43%] text-[13px] xl:text-lg px-4 py-0 xl:py-5'>
                 Success Stories<br/>
                 Here are a few stories of how your support has made a difference:<br/>
                 Maria's Journey:<br/>

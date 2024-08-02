@@ -47,13 +47,13 @@ const Faq = () => {
         },
       ];
   return (
-    <div className='py-4 w-full '>
+    <div className='py-4 w-full overflow-hidden'>
         <h1 className='xl:text-4xl sm:text-2xl font-bold flex  items-center justify-center py-2 '> <i className="ri-vip-crown-line"></i> General Information</h1>
         <div className="qandanswers flex flex-wrap sm:flex-col xl:flex-row xl:px-4 sm:px-7 mx-auto gap-4 w-full justify-between text-white">
       {faqData.map((item, index) => (
         <div key={index} className="card1 bg-[#011627] xl:w-[420px] sm:w-full h-[250px] rounded-[10px] p-4" data-aos={index % 2 === 0 ? "slide-right" : "slide-left"} data-aos-duration='1500'>
           <p className='text-xl sm:text-lg py-3'>{item.question}</p>
-          <p className='py-3' dangerouslySetInnerHTML={{ __html: item.answer }}></p>
+          <p className='py-3 xl:text-lg sm:text-[12px]' dangerouslySetInnerHTML={{ __html: item.answer }}></p>
         </div>
       ))}
     </div>

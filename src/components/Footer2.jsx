@@ -52,7 +52,7 @@ const Footer2 = () => {
             
           </div>
         </section>
-        <div className="footerColumns xl:w-[97%] sm:w-[100%]  flex flex-col flex-wrap overflow-hidden">
+        <div className="footerColumns xl:w-[97%] sm:w-[100%] flex flex-col flex-wrap overflow-hidden">
           <section className='logo flex justify-center w-[full] py-9'>
             <h2 className='gtext text-2xl md:text-3xl lg:text-4xl xl:text-5xl w-full md:w-[550px] ms-[27%] seperation font-bold'>
               <i className="ri-vip-crown-line"></i> CwoalG

@@ -214,6 +214,34 @@
     }
       
    }
+  
+   @media (max-width:360px) {
+    .page1{
+        left: -28% !important;
+      }
+      .page2{
+        left:66% !important;
+      }
+    .page3{
+        left: -90% !important;
+      }
+     .page4{
+        left: 120% !important;
+     }
+
+     #one:checked ~ .container .panel{
+        left: -300px;
+    }
+    #two:checked ~ .container .panel{
+        left: -845px;
+    }
+    #three:checked ~ .container .panel{
+        left: -1145px;
+    }
+
+
+   }
+
    @media (max-width:375px) {
 
       .page3{

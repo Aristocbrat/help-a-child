@@ -63,7 +63,7 @@ const Footer1 = () => {
 
 
     </div>
-    <div className="locations w-[70%] mx-auto">
+    <div className="locations xl:w-[70%] mx-auto">
       <h1 className='font-bold xl:text-2xl py-4 flex justify-center'>To Locate our offices closer to you. </h1>
       <div className="dropdowns flex xl:justify-evenly justify-between">
       <div className="dropdown">
