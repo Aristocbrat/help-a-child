@@ -112,15 +112,15 @@ const Faq = () => {
           
       </div> */}
       <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 xl:px-7 sm:px-6 ">
-                <section className='xl:border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
-                <section className='xl:border-r-4 border-black'>
+                <section className='xl:border-r-4 border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
-                <section className='xl:border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>
