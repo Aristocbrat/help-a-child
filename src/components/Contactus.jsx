@@ -66,7 +66,7 @@ const Contactus = () => {
       <div className="closingremarks flex flex-col justify-center font-bold xl:w-[700px] items-center xl:ml-[23%] bg-[] py-6">
       <h2 className='xl:text-3xl'>Thank you for your kindness dear volunteers</h2>
       <p>Please download the volunteer form below</p>
-      <a href="" className='hover:bg-black hover:text-white rounded-[5px] py-2 px-4 duration-300'>click here to download form</a>
+      <a href="" className='hover:bg-black dark:hover:bg-slate-500 hover:text-white rounded-[5px] py-2 px-4 duration-300'>click here to download form</a>
       </div>
       <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 xl:px-10 sm:px-6">
                 <section className='xl:border-r-4  border-black'>

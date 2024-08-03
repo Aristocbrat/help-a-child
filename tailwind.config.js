@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [   "./index.html","./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
   
@@ -77,6 +78,10 @@ export default {
       transitionDelay:{
         '600': '600ms',
         '400': '400ms',
+      },
+      colors:{
+        sectextcolor:"white",
+
       }
       
     },

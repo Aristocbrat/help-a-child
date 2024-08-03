@@ -58,7 +58,7 @@ const Counselling = () => {
         All our counselors are licensed professionals with experience in child psychology and trauma-informed care. 
         <a href="/Meetus" className='font-bold hover:underline'>Meet Our Team</a> to learn more about their backgrounds and specialties.</p>
       </div>
-      <section className='bg-black xl:rounded-l-[50%] xl:w-[45%] h-[600px] text-white xl:absolute xl:right-4 xl:mt-[-65%] '>
+      <section className='bg-black dark:bg-slate-600 xl:rounded-l-[50%] xl:w-[45%] h-[600px] text-white xl:absolute xl:right-4 xl:mt-[-65%] '>
       <h1 className='uppercase  text-lg font-bold py-6  flex justify-center xl:ml-[15%] xl:px-8 mt-6 '> How to Access Counseling Services</h1>
       <div className="cases py-2 xl:w-[400px] xl:ml-[19%] px-3 xl:px-0" data-aos="slide-left">
         <h1 className='xl:text-2xl'> <i className="ri-arrow-right-double-fill"></i> For Children in Our Care:</h1>

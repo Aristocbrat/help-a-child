@@ -14,7 +14,7 @@ const Adoption = () => {
   
 
   return (
-    <div className='bg-[#6c584c] text-white '>
+    <div className='bg-[#6c584c] dark:bg-black text-white '>
       <div className="main  xl:px-5 py-5 ">
         <h1 className='font-bold text-3xl flex items-center justify-center py-2'>Adoption</h1>
         <h1 className='font-bold xl:text-3xl flex items-center justify-center py-2'>Welcome to Our Adoption Program</h1>
@@ -110,15 +110,15 @@ const Adoption = () => {
             </div>
            
             <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 px-6">
-                <section className='xl:border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black  dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
-                <section className='xl:border-r-4 border-black'>
+                <section className='xl:border-r-4 border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
-                <section className='xl:border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>

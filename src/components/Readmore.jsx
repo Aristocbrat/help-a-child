@@ -8,7 +8,7 @@ const Readmore = () => {
         time();
       }, []);
   return (
-    <div className='bg-[#003049] text-white'>
+    <div className='bg-[#003049] dark:bg-black text-white'>
     <div className="readm xl:px-5 sm:px-4">
       <h1 className='font-bold xl:text-4xl sm:text-lg flex justify-center xl:py-4 sm:py-4'>Adoption: An Act of Love and Devotion</h1>
       <p className='xl:py-2'>

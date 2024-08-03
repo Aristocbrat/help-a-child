@@ -67,7 +67,7 @@ const Footer1 = () => {
       <h1 className='font-bold xl:text-2xl py-4 flex justify-center'>To Locate our offices closer to you. </h1>
       <div className="dropdowns flex xl:justify-evenly justify-between">
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Lagos<i className="ri-arrow-down-double-line"></i></h1>
+      <h1 className='font-bold text-xl bg-black dark:bg-slate-500 text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Lagos<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0   bg-black text-white  px-2 py-2'><a href="">Ikeja</a></li>
         <hr className='opacity-0 hover:opacity-10' />
@@ -77,7 +77,7 @@ const Footer1 = () => {
       </ul>
       </div>
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Ogun<i className="ri-arrow-down-double-line"></i></h1>
+      <h1 className='font-bold text-xl bg-black dark:bg-slate-500 text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Ogun<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0 bg-black text-white  px-2 py-2' ><a href="">Olosun ota</a></li>
         <hr  className='opacity-0 hover:opacity-10'/>
@@ -87,7 +87,7 @@ const Footer1 = () => {
       </ul>
       </div>
       <div className="dropdown">
-      <h1 className='font-bold text-xl bg-black text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Abuja<i className="ri-arrow-down-double-line"></i></h1>
+      <h1 className='font-bold text-xl bg-black dark:bg-slate-500 text-white px-3 rounded transition-all duration-500 ease-linear cursor-pointer hover:scale-50'>Abuja<i className="ri-arrow-down-double-line"></i></h1>
       <ul className='ps-1 py-2'>
         <li className=' duration-1500 opacity-0   bg-black text-white  px-2 py-2'><a href="">Gwarinpa</a></li>
         <hr className='opacity-0 hover:opacity-10'/>

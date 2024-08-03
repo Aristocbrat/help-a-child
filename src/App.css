@@ -137,7 +137,7 @@
     } 
 
    .seperation{
-    background: linear-gradient(to right,  lightgreen ,black, red, green, black);
+    background: linear-gradient(to right,  lightgreen ,purple, red, green, blue);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
    }
