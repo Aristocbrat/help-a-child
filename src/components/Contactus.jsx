@@ -69,15 +69,15 @@ const Contactus = () => {
       <a href="" className='hover:bg-black dark:hover:bg-slate-500 hover:text-white rounded-[5px] py-2 px-4 duration-300'>click here to download form</a>
       </div>
       <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 xl:px-10 sm:px-6">
-                <section className='xl:border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Success stories</h2>
                   <p>Read about the impact of your contributions and the success stories of the children we support.</p>
                 </section>
-                <section className='xl:border-r-4 border-black'>
+                <section className='xl:border-r-4 border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Get Involved</h2>
                   <p>Find out how you can get involved and make a difference in a child's life.</p>
                 </section>
-                <section className='xl:border-r-4  border-black'>
+                <section className='xl:border-r-4  border-black dark:border-white'>
                   <h2 className='xl:text-2xl font-bold'>Legal</h2>
                   <p>Privacy Policy | Terms of Service.</p>
                 </section>
