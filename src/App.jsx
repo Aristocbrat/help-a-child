@@ -16,12 +16,13 @@ import Readmore from './components/Readmore'
 import Meetus from './components/Meetus'
 
 
+
 function App() {
 
 
   return (
     <>
-    <div className="app dark:bg-black dark:text-white  ">
+    <div className="app dark:bg-black dark:text-white dark:duration-500 duration-500 ">
 
     
    <Navbar/>

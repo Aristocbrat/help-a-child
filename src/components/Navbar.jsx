@@ -1,8 +1,12 @@
 import React,{useEffect, useState} from 'react'
 
 
+
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+ 
+
+
+  const [darkMode, setDarkMode] = useState( "darkMode",false);
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add('dark');
@@ -10,7 +14,7 @@ const Navbar = () => {
       document.documentElement.classList.remove('dark');
     }
   }, [darkMode]);
-
+ 
 
   return (
     <div>
