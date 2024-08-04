@@ -10,7 +10,7 @@ const Aboutus = () => {
     <div className=' w-full h-full xl:px-6 sm:px-3'>
       
       <div className="loader w-[112px] h-[112px] relative">
-        <div className="box1 absolute border-8 border-solid border-black block w-[112px] h-[38px] mt-[64px] ml-[0px] animate-abox1"></div>
+        <div className="box1 absolute border-8 border-solid border-black dark:border-white block w-[112px] h-[38px] mt-[64px] ml-[0px] animate-abox1"></div>
         <div className="box2 absolute border-8 border-solid border-red-500 block w-[48px] h-[38px] mt-[0px] ml-[0px] animate-abox2"></div>
         <div className="box3 absolute border-8 border-solid border-green-600 block w-[48px] h-[38px] mt-[0px] ml-[64px] animate-abox3"></div>
       </div>
