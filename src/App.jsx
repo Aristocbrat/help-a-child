@@ -1,19 +1,20 @@
 
 import './App.css'
 import {Routes , Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Donations from './components/Donations'
-import Donation2 from './components/Donation2'
-import Wth from './components/Wth'
-import Aboutus from './components/Aboutus'
-import Contactus from './components/Contactus'
-import Faq from './components/Faq'
-import Adoption from './components/Adoption'
-import Awareness from './components/Awareness'
-import Counselling from './components/Counselling'
+import Navbar from './components/constants/Navbar'
+import Home from './components/client/Home'
+import Donations from './components/client/Donations'
+import Donation2 from './components/client/Donation2'
+import Wth from './components/client/Wth'
+import Aboutus from './components/client/Aboutus'
+import Contactus from './components/client/Contactus'
+import Faq from './components/client/Faq'
+import Adoption from './components/client/Adoption'
+import Awareness from './components/client/Awareness'
+import Counselling from './components/client/Counselling'
 import Readmore from './components/Readmore'
 import Meetus from './components/Meetus'
+import Footer2 from './components/constants/Footer2'
 
 
 
@@ -23,8 +24,6 @@ function App() {
   return (
     <>
     <div className="app dark:bg-black dark:text-white dark:duration-500 duration-500 ">
-
-    
    <Navbar/>
    <Routes>
     <Route path='/' element={<Home/>}/>
@@ -40,6 +39,7 @@ function App() {
     <Route path='/Readmore' element={<Readmore/>}/>
     <Route path='/Meetus' element={<Meetus/>}/>
    </Routes>
+   <Footer2/>
    </div>
    </>
   )

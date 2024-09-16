@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer2 from './Footer2'
-
 const Counselling = () => {
   return (
     <div>
@@ -78,7 +76,7 @@ const Counselling = () => {
               Learn More about our community programs.</p>
       </div>
       </section>
-    <Footer2/>
+
     </div>
   )
 }

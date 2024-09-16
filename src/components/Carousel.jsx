@@ -12,6 +12,7 @@ import walk from './../assets/images/walk.jpg'
 import rice from './../assets/images/rice.jpg'
 import grad from './../assets/images/grad.jpg'
 import boyandgirl from './../assets/images/boyandgirl.jpg'
+import Footer1 from './Footer1'
 
 const Carousel = () => {
     const myslides = [image1,image2,image3,image4,image5,image6,image7]
@@ -35,14 +36,19 @@ const Carousel = () => {
  }
   return (
     <div>
-       <div className='max-w-[100%] min-w-36 relative py-20 mx-auto h-[650px] min-h-36 px-6 group mt-[-2%]'>
-        <div style={{backgroundImage:`url(${myslides[currentIndex]})`}} className='w-full h-full rounded-[2px] bg-center bg-cover duration-500 '></div>
+       <div className='max-w-[100%] min-w-36 relative py-20 mx-auto h-[650px] min-h-36 xl:px-6 group xl:mt-[-2%] sm:mt-[-20%]'>
+        <div style={{backgroundImage:`url(${myslides[currentIndex]})`}} 
+        className='w-full h-full rounded-[2px] bg-center bg-cover duration-500 '></div>
       <div className='directions'>
         <div className="leftarrow">
-           <BsChevronCompactLeft onClick={prevImage}   className='hidden group-hover:block absolute top-[50%] left-0 -translate-y-1/2 rounded-full  text-black bg-slate-500 cursor-pointer text-5xl '/>
+           <BsChevronCompactLeft onClick={prevImage} 
+             className='hidden group-hover:block absolute top-[50%] left-0 -translate-y-1/2
+              rounded-full  text-black bg-slate-500 cursor-pointer xl:text-5xl sm:text-3xl'/>
         </div>
         <div className="rightarrow">
-            <BsChevronCompactRight onClick={nextImage} className='hidden group-hover:block absolute top-[50%] right-0 -translate-y-1/2  rounded-full  text-black bg-slate-500 cursor-pointer text-5xl'/>
+            <BsChevronCompactRight onClick={nextImage}
+             className='hidden group-hover:block absolute top-[50%] right-0
+              -translate-y-1/2  rounded-full  text-black bg-slate-500 cursor-pointer xl:text-5xl sm:text-3xl'/>
         </div>
       </div>
       <div className="dots flex top-4 justify-center py-2 ">
@@ -77,7 +83,7 @@ const Carousel = () => {
     <a href="" className='mt-12 hover:scale-110 hover:bg-black hover:text-white transition-transform duration-300 hover:px-8 hover:rounded'>www.Cwoalg.com</a>
   </div>
 </div>
-
+   <Footer1/>
     </div>
   )
 }

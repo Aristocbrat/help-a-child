@@ -1,11 +1,10 @@
 import React , {useEffect}from 'react'
-import Footer2 from './Footer2'
-import classr from "./../assets/images/schoool.jpg"
-import reno  from "./../assets/images/renovation.jpg"
-import building from "./../assets/images/building.jpg"
-import toy from "./../assets/images/Toy.jpg"
-import heart from "./../assets/images/heart.jpg"
-import rice from './../assets/images/rice.jpg'
+import classr from "./../../assets/images/schoool.jpg"
+import reno  from "./../../assets/images/renovation.jpg"
+import building from "./../../assets/images/building.jpg"
+import toy from "./../../assets/images/Toy.jpg"
+import heart from "./../../assets/images/heart.jpg"
+import rice from './../../assets/images/rice.jpg'
 
 
 const Donation2 = () => {
@@ -150,7 +149,7 @@ const Donation2 = () => {
                
             </div>
         </div>
-        <Footer2 />
+
     </div>
   )
 }

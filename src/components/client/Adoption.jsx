@@ -1,20 +1,12 @@
-import React,{useEffect} from 'react'
-import clip1 from "./../assets/images/clip1.jpg"
-import clip2 from "./../assets/images/clip2.jpg"
-import clip3 from "./../assets/images/clip3.jpg"
+import React from 'react'
+import clip1 from "./../../assets/images/clip1.jpg"
+import clip2 from "./../../assets/images/clip2.jpg"
+import clip3 from "./../../assets/images/clip3.jpg"
 
 
 const Adoption = () => {
-  useEffect(() => {
-    const time = () => {
-      document.getElementById('year').innerHTML = new Date().getFullYear();
-    };
-    time();
-  }, []);
-  
-
   return (
-    <div className='bg-[#6c584c] dark:bg-black text-white '>
+    <div className='bg-white text-black dark:bg-black  '>
       <div className="main  xl:px-5 py-5 ">
         <h1 className='font-bold text-3xl flex items-center justify-center py-2'>Adoption</h1>
         <h1 className='font-bold xl:text-3xl flex items-center justify-center py-2'>Welcome to Our Adoption Program</h1>
@@ -98,43 +90,6 @@ const Adoption = () => {
         <p className='font-bold py-2 px-4'> <i className="ri-arrow-right-double-line"></i> Health and Educational Background</p>
         </div>
       </div>
-
-      <hr className='p-4 text-white' />
-      <div className="address  font-bold  xl:px-7 sm:px-4" >
-              <p>
-                <span className='font-bold text-2xl'>Contact Us</span>
-                <p data-aos="fade-down-right">No 7 Victory Avenue Olosun Ota, Ogun State</p>
-                <p data-aos="fade-down-right">Phone: (+234)8020921654</p>
-                <a href="mailto:">Email: emmanuelforbez@gmail.com</a></p>
-                <p className="py-4 xl:ms-[24%]  xl:text-5xl  xl:ps-4"><span className='spanex'></span></p>
-            </div>
-           
-            <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 px-6">
-                <section className='xl:border-r-4  border-black  dark:border-white'>
-                  <h2 className='xl:text-2xl font-bold'>Success stories</h2>
-                  <p>Read about the impact of your contributions and the success stories of the children we support.</p>
-                </section>
-                <section className='xl:border-r-4 border-black dark:border-white'>
-                  <h2 className='xl:text-2xl font-bold'>Get Involved</h2>
-                  <p>Find out how you can get involved and make a difference in a child's life.</p>
-                </section>
-                <section className='xl:border-r-4  border-black dark:border-white'>
-                  <h2 className='xl:text-2xl font-bold'>Legal</h2>
-                  <p>Privacy Policy | Terms of Service.</p>
-                </section>
-                <section >
-                  <h2 className='xl:text-2xl font-bold'>Our Mission</h2>
-                  <p>Providing a safe, nurturing environment where every child can grow, learn, and thrive</p>
-                </section>
-
-            </div>
-            <small className='gtext flex justify-center pt-9 text-base md:text-lg lg:text-xl xl:text-2xl mt-[90px]'>
-              <i className="ri-copyright-line"></i> CwoalG 
-              <span id='year'> </span>
-              <span className='ps-3'> All rights reserved</span>
-            </small>
-
-      
     </div>
   )
 }

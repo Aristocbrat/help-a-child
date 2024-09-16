@@ -3,7 +3,7 @@ import React from 'react';
 
 const Donations = () => {
   return (
-    <div className=' bg-slate-400 max-w-[100%] h-[100vh] text-white flex items-center align-middle  justify-center'>
+    <div className='bg-gray-100 max-w-[100%] h-[100vh] text-white flex items-center align-middle  justify-center'>
       
       <input type="checkbox" id="one" className='hidden' />
       <input type="checkbox" id="two" className='hidden' />

@@ -1,12 +1,7 @@
-import React , {useEffect}from 'react';
+import React from 'react';
 
 const Contactus = () => {
-    useEffect(() => {
-        const time = () => {
-          document.getElementById('year').innerHTML = new Date().getFullYear();
-        };
-        time();
-      }, []);
+    
   return (
     <div className='h-full'>
       <h2 className='flex justify-center py-4 xl:text-4xl  font-bold'>Feed African children. Give them life!</h2>
@@ -35,8 +30,7 @@ const Contactus = () => {
                 name="message"
                 id="message"
                 className="w-full h-32 p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-200"
-                placeholder="Type your message here..."
-              ></textarea>
+                placeholder="Type your message here..."></textarea>
               <button type="button" className='bg-[#309cd6] px-3 py-2 rounded-[5px] hover:bg-green-500 duration-300 mt-2'>Send message</button>
             </div>
           </div>
@@ -66,32 +60,9 @@ const Contactus = () => {
       <div className="closingremarks flex flex-col justify-center font-bold xl:w-[700px] items-center xl:ml-[23%] bg-[] py-6">
       <h2 className='xl:text-3xl'>Thank you for your kindness dear volunteers</h2>
       <p>Please download the volunteer form below</p>
-      <a href="" className='hover:bg-black dark:hover:bg-slate-500 hover:text-white rounded-[5px] py-2 px-4 duration-300'>click here to download form</a>
+      <a href="" className='hover:bg-black dark:hover:bg-slate-500 hover:text-white rounded-[5px] py-2 px-4 duration-300'>
+        Click here to download form</a>
       </div>
-      <div className="awareness flex xl:flex-row sm:flex-col mt-12 justify-center gap-6 xl:px-10 sm:px-6">
-                <section className='xl:border-r-4  border-black dark:border-white'>
-                  <h2 className='xl:text-2xl font-bold'>Success stories</h2>
-                  <p>Read about the impact of your contributions and the success stories of the children we support.</p>
-                </section>
-                <section className='xl:border-r-4 border-black dark:border-white'>
-                  <h2 className='xl:text-2xl font-bold'>Get Involved</h2>
-                  <p>Find out how you can get involved and make a difference in a child's life.</p>
-                </section>
-                <section className='xl:border-r-4  border-black dark:border-white'>
-                  <h2 className='xl:text-2xl font-bold'>Legal</h2>
-                  <p>Privacy Policy | Terms of Service.</p>
-                </section>
-                <section >
-                  <h2 className='xl:text-2xl font-bold'>Our Mission</h2>
-                  <p>Providing a safe, nurturing environment where every child can grow, learn, and thrive</p>
-                </section>
-
-            </div>
-      <small className='gtext flex justify-center pt-9 text-base md:text-lg lg:text-xl xl:text-2xl mt-[90px]'>
-              <i className="ri-copyright-line"></i> CwoalG 
-              <span id='year'> </span>
-              <span className='ps-3'> All rights reserved</span>
-            </small>
     </div>
   );
 }

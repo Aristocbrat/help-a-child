@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Italianno&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+*{
+    font-family: "Cabin", sans-serif;
+}
 .footerheadline{
     background: #0a3656;
 }

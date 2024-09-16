@@ -1,8 +1,6 @@
 import React from 'react';
 
 
-import Footer2 from './Footer2';
-
 const Wth = () => {
 
 
@@ -22,7 +20,7 @@ const Wth = () => {
         <p className="py-2 text">-Sponsor a Child: <span >Consider sponsoring a child's education or healthcare, providing them with opportunities for a better future</span>.</p>
       </div>
       
-      <Footer2 />
+    
     </div>
     
   );

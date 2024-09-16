@@ -1,14 +1,9 @@
-import React,{useEffect} from 'react'
-import guest3 from "./../assets/images/guestw2.jpg"
-import walk2 from "./../assets/images/walk2.jpg"
-import walk3 from "./../assets/images/walk3.jpg"
+import React from 'react'
+import guest3 from "./../../assets/images/guestw2.jpg"
+import walk2 from "./../../assets/images/walk2.jpg"
+import walk3 from "./../../assets/images/walk3.jpg"
 const Awareness = () => {
-    useEffect(() => {
-        const time = () => {
-          document.getElementById('year').innerHTML = new Date().getFullYear();
-        };
-        time();
-      }, []);
+   
   return (
     <div className='bg-black text-white'>
         <div className="raise">
@@ -90,40 +85,7 @@ const Awareness = () => {
                 </div>
             </div>
         </div>
-        <hr className='p-4 font-bold ' />
-        {/* <div className="address  font-bold  px-7" >
-              <p>
-                <span className='font-bold text-2xl'>Contact Us</span>
-                <p data-aos="fade-down-right">No 7 Victory Avenue Olosun Ota, Ogun State</p>
-                <p data-aos="fade-down-right">Phone: (+234)8020921654</p>
-                <a href="mailto:">Email: emmanuelforbez@gmail.com</a></p>
-                <p className="py-4 ms-[24%]  text-5xl  ps-4"><span className='spanex'></span></p>
-            </div> */}
-           
-            {/* <div className="awareness flex mt-12 justify-center gap-6 px-6">
-                <section className='border-r-4  border-red-500'>
-                  <h2 className='text-2xl font-bold'>Success stories</h2>
-                  <p>Read about the impact of your contributions and the success stories of the children we support.</p>
-                </section>
-                <section className='border-r-4 border-white'>
-                  <h2 className='text-2xl font-bold'>Get Involved</h2>
-                  <p>Find out how you can get involved and make a difference in a child's life.</p>
-                </section>
-                <section className='border-r-4  border-green-500'>
-                  <h2 className='text-2xl font-bold'>Legal</h2>
-                  <p>Privacy Policy | Terms of Service.</p>
-                </section>
-                <section >
-                  <h2 className='text-2xl font-bold'>Our Mission</h2>
-                  <p>Providing a safe, nurturing environment where every child can grow, learn, and thrive</p>
-                </section>
-
-            </div> */}
-            <small className='gtext flex justify-center pt-9 text-base md:text-lg lg:text-xl xl:text-2xl mt-[90px]'>
-              <i className="ri-copyright-line"></i> CwoalG 
-              <span id='year'> </span>
-              <span className='ps-3'> All rights reserved</span>
-            </small>
+       
       
     </div>
   )

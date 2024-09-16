@@ -1,6 +1,7 @@
 import React , {useEffect} from 'react'
 import Typed from 'typed.js';
-import imgw from './../assets/images/imagew.jpg'
+import imgw from './../../assets/images/imagew.jpg'
+
 
 const Footer2 = () => {
     useEffect(() => {
@@ -33,20 +34,29 @@ const Footer2 = () => {
          <div className='footer2 py-2 relative bottom-0 w-[99%] xl:px-3 flex items-center flex-col '>
       <div className="footer-wrapper flex flex-col max-w-[100%] w-full xl:p-4 sm:px-3 xl:ml-6 ">
         <section className="footertop flex flex-wrap items-start py-4 px-0 justify-between">
-          <div className="footerheadline flex flex-col justify-center text-white xl:w-[97%] sm:w-[100%] rounded px-4 py-4 ">
+          <div className="footerheadline flex flex-col justify-center text-white xl:w-[97%] sm:w-[100%] rounded px-4 py-4 bg-black">
             <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
             <div className='flex xl:flex-row sm:flex-col'>
                 <img src={imgw} alt="" className='xl:w-[40%] rounded-[20px]'/>
-                <span className='xl:w-[550px] text-[13px] md:text-lg lg:text-lg xl:text-lg xl:ml-5'>Adoption is an act of love. It must come from a desire to love a child.
+                <span className='xl:w-[550px] sm:text-[13px] md:text-lg lg:text-lg xl:text-lg xl:ml-5'>Adoption is an act of love. It must come from a desire to love a child.
                      It must be motivated by our love for God and humanity. 
                      It must be because we want to raise a child for God as a demonstration of our love.
-                     Every child is a gift from God.</span>
+                     Every child is a gift from God.
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus nobis,
+                      et excepturi ipsam tempora officiis consectetur cum animi ducimus
+                      repudiandae consequatur dolor ipsum dicta libero labore cupiditate expedita nisi minima.</span>
                      </div>
-                     <a href="/Readmore"><button className='border-white py-3 hover:bg-green-500 hover:py-2  hover:rounded-[20px] hover:mt-2 duration-500'>Read more <i className="ri-skip-right-line"></i></button></a><br/>
+                     <a href="/Readmore" className='group border-white py-3 mt-2 hover:py-2
+                      hover:rounded-[20px] hover:mt-2 duration-500 sm:text-[13px] md:text-lg lg:text-lg xl:text-lg'>
+                    Read more
+                <i className="ri-skip-right-line transform group-hover:translate-x-2 ml-2 duration-500"></i>
+                </a>
+               <br/>
               Subscribe to our Channel on YouTube and check out our Programs.
               <i className="ri-youtube-fill text-4xl text-red-600"></i>
             </h2>
-            <p className='text-base md:text-lg lg:text-xl xl:text-2xl'>Stay up to date with our Programs and Donations.</p>
+            <p className='text-base md:text-lg lg:text-xl xl:text-2xl'>
+              Stay up to date with our Programs and Donations.</p>
           </div>
           <div className="footerSignup flex flex-col sm:flex-row text-base md:text-lg lg:text-xl xl:text-xl">
             
@@ -83,12 +93,14 @@ const Footer2 = () => {
                 </li>
                 <li>
                   <a href="" title='Facebook' >
-                    <i className="ri-facebook-fill text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-5xl hover:-scale-y-100 transition-transform duration-500"></i>
+                    <i className="ri-facebook-fill text-blue-700 text-xl md:text-2xl lg:text-3xl
+                     xl:text-5xl hover:-scale-y-100 transition-transform duration-500"></i>
                   </a>
                 </li>
-                <li>
+                <li className='group'>
                   <a href="" title='Linkedin'>
-                    <i className="ri-linkedin-fill text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-5xl hover:scale-105 transition-transform duration-500"></i>
+                    <i className="ri-linkedin-fill text-blue-700 text-xl md:text-2xl lg:text-3xl 
+                    xl:text-5xl group-hover:scale-105 group-hover:translate-x-4 transform duration-500"></i>
                   </a>
                 </li>
                 <li><p className='font-bold pt-3 sm:ml-[-1%] xl:mt-0 sm:mt-[-3%] px-4'>You can follow us on our socials <i className="ri-thumb-up-fill hover:text-blue-600  "></i></p></li>

@@ -8,19 +8,21 @@ const Footer1 = () => {
     <div className='px-3'>
        <div className='footer w-full h-full bg-black text-white rounded-[9px] xl:p-2 mt-20'>
       <div className='text-center'>
-        <p className=' sm:text-[12px] md:text-2xl lg:text-3xl xl:text-lg py-10 px-3'>
+        <p className=' sm:text-[9px] md:text-2xl lg:text-3xl xl:text-lg py-10 px-3'>
           "The orphanage provides a safe haven for children who have experienced trauma or abuse,
           ensuring they have access to care and resources necessary for their well-being and development"
         </p>
-        <p className='hearts text-red-600 flex justify-center text-[14px] md:text-3xl lg:text-3xl xl:text-lg  animate-pulse duration-700 py-4'>
+        <p className='hearts text-red-600 flex justify-center
+         sm:text-[10px] md:text-3xl lg:text-3xl xl:text-lg  py-4'>
           <span className='px-2'>Your donation can also support the Heartbeat Program, helping children with heart conditions </span>
-          <i className="ri-heart-3-fill"></i>
+          <span className='xl:ml-0 sm:ml-[-2%]'><i className="ri-heart-3-fill"></i>
           <i className="ri-empathize-fill"></i>
           <i className="ri-heart-3-fill"></i>
           <i className="ri-hearts-fill"></i>
+          </span>
         </p>
         <span>
-  <button className='bg-black text-white border border-neutral-50 xl:p-4 sm:p-3 rounded-[9px] font-bold hover:bg-green-500'>
+  <button className='bg-black text-white border border-neutral-50 xl:p-4 sm:p-1 rounded-[9px] font-bold hover:bg-green-500'>
     <a href="/Donations" className='text-[13px]'>Click Here</a>
   </button>
 </span>
