@@ -23,14 +23,15 @@ const Navbar = () => {
             </a>
           </div>
           
-          <div className="links flex flex-wrap flex-row md:w-2/3 justify-evenly items-center xl:p-1 sm:p-2 mx-auto xl:font-semibold sm:font-bold">
+          <div className="links flex flex-wrap flex-row md:w-2/3 justify-evenly 
+          items-center xl:p-1 sm:p-2 mx-auto xl:font-semibold sm:font-light sm:gap-6">
             
             <NavLink 
               to="/" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white p-3 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:xl:p-3 hover:sm:p-2 hover:rounded duration-300"
               }>
               <i className="ri-home-4-line"></i> Home
             </NavLink>
@@ -39,8 +40,8 @@ const Navbar = () => {
               to="/Donations" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white p-3 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
               }>
               <i className="ri-service-line"></i> Donations
             </NavLink>
@@ -49,8 +50,8 @@ const Navbar = () => {
               to="/Wth" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white p-3 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 hover:sm:p-2 hover:rounded duration-300"
               }>
               <i className="ri-archive-stack-line"></i> Ways to Help
             </NavLink>
@@ -59,8 +60,8 @@ const Navbar = () => {
               to="/Aboutus" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white p-3 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 hover:sm-p-2  hover:rounded duration-300"
               }>
               <i className="ri-user-line"></i> About-us
             </NavLink>
@@ -69,8 +70,8 @@ const Navbar = () => {
               to="/Contactus" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white p-3 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
               }>
               <i className="ri-phone-line"></i> Contact us
             </NavLink>
@@ -79,8 +80,8 @@ const Navbar = () => {
               to="/FAQ" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white p-3 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:p-3 hover:rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
               }>
               <i className="ri-question-answer-line"></i> FAQ
             </NavLink>

@@ -3,7 +3,7 @@ import React  from 'react'
 const Readmore = () => {
    
   return (
-    <div className='bg-[#003049] dark:bg-black text-white'>
+    <div className='bg-white text-black dark:bg-black dark:text-white py-3'>
     <div className="readm xl:px-5 sm:px-4">
       <h1 className='font-bold xl:text-4xl sm:text-lg flex justify-center xl:py-4 sm:py-4'>Adoption: An Act of Love and Devotion</h1>
       <p className='xl:py-2'>
@@ -18,6 +18,7 @@ const Readmore = () => {
       <p className='xl:py-5'>
         In conclusion, adoption is more than a legal process; it is a heartfelt decision driven by love and faith. It is a commitment to provide a loving home and to raise a child in the light of God’s love. Through adoption, we become co-creators in God’s plan, offering a child the love, stability, and guidance they need to flourish.
       </p>
+      <div className="xl:w-[95%] mx-auto ">
       <div className="relative flex justify-center xl:h-[350px] sm:h-[300px] sm:w-[150px] xl:w-[190px] xl:border-4  border-black rounded-2xl bg-gray-50 mt-5 sm:ml-[23%] xl:ml-0"
         style={{ boxShadow: "2px 2px 2.5px 6px rgb(2, 8, 18,)" }}>
         <span className="xl:border border-black bg-black xl:w-20 xl:h-2  rounded-br-xl rounded-bl-xl"></span>
@@ -27,18 +28,23 @@ const Readmore = () => {
     </div>
 
         <div className="socials z-20 absolute xl:mt-[-24%] sm:mt-[-68%] xl:px-8 sm:px-5 sm:ml-[24%] xl:ml-0 ">
-            <ul className='flex gap-6 flex-col'>
-                <li><i className="ri-instagram-fill text-purple-500 text-xl md:text-2xl lg:text-3xl xl:text-3xl"></i><a href="//htt" className='text-black font-bold text-[13px]'>@3rdGbolokun</a></li>
-                <li><i class="ri-youtube-fill  xl:text-4xl text-red-600"></i><a href="" className='text-black font-bold xl:text-[13px]'>CWOALG</a></li>
+            <ul className='flex gap-6 flex-col xl:ml-10'>
+                <li>
+                  <i className="ri-instagram-fill text-purple-500 text-xl md:text-2xl lg:text-3xl xl:text-3xl"></i>
+                  <a href="//htt" className='text-black font-bold text-[13px]'>@3rdGbolokun</a></li>
+
+                <li>
+                  <i class="ri-youtube-fill  xl:text-4xl text-red-600"></i>
+                  <a href="" className='text-black font-bold xl:text-[13px]'>CWOALG</a></li>
                 <li><i className="ri-twitter-x-line text-black text-xl md:text-2xl lg:text-3xl xl:text-3xl"></i><a href="" className='text-black font-bold text-[13px]'>@3rdGbolokun</a></li>
                 <li><i className="ri-facebook-fill  text-blue-700 text-xl md:text-2xl lg:text-3xl xl:text-3xl"></i>  <a href="" className='text-black font-bold text-[13px]'>@CwoalG</a></li>
                 <li><i className="ri-linkedin-fill text-blue-700 xl:text-3xl"></i>  <a href="" className='text-black font-bold xl:text-[13px]'>3rdGbolokun</a></li>
             </ul>
         </div>
-        <section className='xl:w-[500px] xl:ml-[24%] xl:mt-[-25%] xl:absolute  sm:px-5 sm:mt-5'>
+        <section className='xl:w-[500px] xl:ml-[24%] xl:mt-[-28%] xl:absolute mx-auto sm:px-5 sm:mt-5'>
             <h1 className='font-bold xl:text-4xl '>Connect with Us</h1>
             <p className='text-[13px] xl:py-3'>We love to hear from you! Whether you have questions, feedback, or just want to stay updated with our latest news, you can reach out to us on our social media channels. Follow us, like our posts,
-                 and send us a message—we’re always here to connect and engage with our community.</p>
+                 and send us a message—we're always here to connect and engage with our community.</p>
                  <h1 className='font-bold xl:text-4xl py-2'>Follow Us On:</h1>
                  <ul>
                     <li className='py-2'>Facebook: facebook.com/@CwoalG</li>
@@ -48,7 +54,7 @@ const Readmore = () => {
                     <li>Youtube: Subscribe to our channel/Emmanuelforbez</li>
                  </ul>
         </section>
-        
+        </div>
        
       </div>
   )

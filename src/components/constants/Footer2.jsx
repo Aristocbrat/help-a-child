@@ -123,11 +123,11 @@ const Footer2 = () => {
       pathLength="1000"
       stroke="black"
     ></path>
-  </svg>
+        </svg>
 
   <p class="xl:text-[1em] text-black dark:text-white font-semibold [user-select:none] px-3">Spread love Always</p>
-</label>
-</p></li>
+     </label>
+    </p></li>
               </ul>
             </div>
 
