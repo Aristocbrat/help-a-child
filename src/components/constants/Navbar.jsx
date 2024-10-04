@@ -30,7 +30,7 @@ const Navbar = () => {
               to="/" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
                   : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:xl:p-3 hover:sm:p-2 hover:rounded duration-300"
               }>
               <i className="ri-home-4-line"></i> Home
@@ -40,7 +40,7 @@ const Navbar = () => {
               to="/Donations" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
                   : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
               }>
               <i className="ri-service-line"></i> Donations
@@ -50,7 +50,7 @@ const Navbar = () => {
               to="/Wth" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
                   : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 hover:sm:p-2 hover:rounded duration-300"
               }>
               <i className="ri-archive-stack-line"></i> Ways to Help
@@ -60,7 +60,7 @@ const Navbar = () => {
               to="/Aboutus" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
                   : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 hover:sm-p-2  hover:rounded duration-300"
               }>
               <i className="ri-user-line"></i> About-us
@@ -70,7 +70,7 @@ const Navbar = () => {
               to="/Contactus" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
                   : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
               }>
               <i className="ri-phone-line"></i> Contact us
@@ -80,7 +80,7 @@ const Navbar = () => {
               to="/FAQ" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 bg-stone-700 text-white xl:p-3 sm:p-2 rounded duration-300"
+                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
                   : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
               }>
               <i className="ri-question-answer-line"></i> FAQ
