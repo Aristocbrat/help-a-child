@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="menu flex flex-col md:flex-row w-full font-sans align-middle">
           <div className="logo flex justify-center md:justify-start md:w-1/3 p-4">
             <a href="/">
-              <h2 className='gtext text-3xl md:text-4xl lg:text-5xl xl:py-4 xl:text-4xl seperation dark:text-slate-500 font-bold'>
+              <h2 className='text-black  text-3xl md:text-4xl lg:text-5xl xl:py-4 xl:text-4xl seperation dark:text-slate-500 font-extrabold'>
                 <i className="ri-vip-crown-line"></i> CwoalG
               </h2>
             </a>
