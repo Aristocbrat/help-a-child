@@ -17,21 +17,21 @@ const Navbar = () => {
         <div className="menu flex flex-col md:flex-row w-full font-sans align-middle">
           <div className="logo flex justify-center md:justify-start md:w-1/3 p-4">
             <a href="/">
-              <h2 className='text-black  text-3xl md:text-4xl lg:text-5xl xl:py-4 xl:text-4xl seperation dark:text-slate-500 font-extrabold'>
+              <h2 className='text-black  text-3xl md:text-4xl lg:text-5xl xl:py-4 xl:text-4xl  dark:text-slate-500 font-extrabold'>
                 <i className="ri-vip-crown-line"></i> CwoalG
               </h2>
             </a>
           </div>
           
-          <div className="links flex flex-wrap flex-row md:w-2/3 justify-evenly 
+          <div className="links flex flex-wrap xl:w-[70%] flex-row md:w-2/3 justify-evenly 
           items-center xl:p-1 sm:p-2 mx-auto xl:font-semibold sm:font-light sm:gap-6">
             
             <NavLink 
               to="/" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white hover:xl:p-3 hover:sm:p-2 hover:rounded duration-300"
+                  ? "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:px-1 sm:px-2 duration-300"
+                  : "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:font-extrabold hover:text-yellow-400 hover:xl:px-1 hover:sm:px-2  duration-300"
               }>
               <i className="ri-home-4-line"></i> Home
             </NavLink>
@@ -40,8 +40,8 @@ const Navbar = () => {
               to="/Donations" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
+                  ? "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:px-2  duration-300"
+                  : "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:font-extrabold hover:text-yellow-400 xl:hover:px-1 sm:hover:px-2  duration-300"
               }>
               <i className="ri-service-line"></i> Donations
             </NavLink>
@@ -50,8 +50,8 @@ const Navbar = () => {
               to="/Wth" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 hover:sm:p-2 hover:rounded duration-300"
+                  ? "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:px-1 sm:px-2  duration-300"
+                  : "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:font-extrabold hover:text-yellow-400 xl:hover:px-1 hover:sm:px-2  duration-300"
               }>
               <i className="ri-archive-stack-line"></i> Ways to Help
             </NavLink>
@@ -60,8 +60,8 @@ const Navbar = () => {
               to="/Aboutus" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 hover:sm-p-2  hover:rounded duration-300"
+                  ? "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:px-1 sm:px-2  duration-300"
+                  : "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:font-extrabold hover:text-yellow-400 xl:hover:px-1 hover:sm-px-2   duration-300"
               }>
               <i className="ri-user-line"></i> About-us
             </NavLink>
@@ -70,8 +70,8 @@ const Navbar = () => {
               to="/Contactus" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
+                  ? "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-1 sm:p-2  duration-300"
+                  : "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:font-extrabold hover:text-yellow-400 xl:hover:px-1 sm:hover:px-2  duration-300"
               }>
               <i className="ri-phone-line"></i> Contact us
             </NavLink>
@@ -80,8 +80,8 @@ const Navbar = () => {
               to="/FAQ" 
               className={({ isActive }) =>
                 isActive
-                  ? "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:p-3 sm:p-2 rounded duration-300"
-                  : "text-[13px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:bg-stone-700 hover:text-white xl:hover:p-3 sm:hover:p-2 hover:rounded duration-300"
+                  ? "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 underline underline-offset-8 text-black xl:px-1 sm:px-2  duration-300"
+                  : "text-[10px] md:text-lg lg:text-xl xl:text-lg py-2 md:py-0 hover:font-extrabold hover:text-yellow-400 xl:hover:px-1 sm:hover:px-2  duration-300"
               }>
               <i className="ri-question-answer-line"></i> FAQ
             </NavLink>
