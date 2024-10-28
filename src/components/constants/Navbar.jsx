@@ -23,7 +23,7 @@ const Navbar = () => {
             </a>
           </div>
           
-          <div className="links flex flex-wrap xl:w-[70%] flex-row md:w-2/3 justify-evenly 
+          <div className="links flex flex-wrap xl:w-[90%] flex-row md:w-2/3 justify-evenly 
           items-center xl:p-1 sm:p-2 mx-auto xl:font-semibold sm:font-light sm:gap-6">
             
             <NavLink 
